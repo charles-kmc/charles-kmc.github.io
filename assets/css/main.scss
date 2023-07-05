@@ -1,14 +1,6 @@
----
----
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+
+@charset "utf-8";
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
@@ -39,3 +31,7 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+@import "themes";
+@import "layout";
+@import "distill";
