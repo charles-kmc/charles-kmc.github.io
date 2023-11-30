@@ -2,7 +2,7 @@
 title: "A stochastic optimisation unadjusted Langevin method for empirical Bayesian estimation in semi-blind image deblurring problems"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'The paper is about solving semi-blind inverse problems using a TV prior. This framework is suitable when practitioner don't have access a set of training, but only have a single observation data.'
 date: 2023-07-01
 venue: 'SIAM'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
