@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Charlesquin Kemajou Mbakam"
+title                    : "harlesquin Kemajou Mbakam"
 title_separator          : "-"
-name                     :  "Charlesquin"
+name                     :  "harlesquin"
 description              :  "Welcome to my page!!"
 url                      : https://charles-kmc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
