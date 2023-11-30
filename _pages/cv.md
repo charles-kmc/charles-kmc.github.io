@@ -11,11 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. Applied Mathematics, Université de Dschang, Cameroun, 2015
-* M.S. applied Mathematics, Université de Dschang, Cameroon, 2017
-* M.S. Industrial Mathematics, African institue for Mathematical Sciences (AIMS), Cameroon, 2019
-* M.S. Machine Intelligence, African Master of Machine Intelligence (AMMI), Rwanda, 2020
-* Ph.D student in Computational imaging, Heriot-Watt University, since 2021
+* B.S. in GitHub, GitHub University, 2012
+* M.S. in Jekyll, GitHub University, 2014
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
 Work experience
 ======
