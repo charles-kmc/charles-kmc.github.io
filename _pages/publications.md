@@ -1,7 +1,8 @@
 ---
 layout: page
+title: "Publications"
 permalink: /publications/
-title: Publications
+author_profile: true
 description: Selected publications. You can find a full list of publications in my Google Scholar.
 years: [2023, 2022]
 nav: true
