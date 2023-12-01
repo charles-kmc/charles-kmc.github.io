@@ -69,15 +69,9 @@
   
 
 
-  <!-- <script>
-    function toggleText() {
-      var hiddenText = document.getElementById("hiddenText");
-      hiddenText.style.display = (hiddenText.style.display === 'none') ? 'block' : 'none';
-    }
-  </script> -->
 
 
-    <script>
+    <!-- <script>
       function toggleText(index) {
         var textElement = document.getElementById(index);
         if (textElement.style.display === "none") {
@@ -86,9 +80,15 @@
           textElement.style.display = "none";
         }
       }
-    </script>
+    </script> -->
 
   </article>
 </div>
 
 
+<script>
+  function toggleText(index) {
+    var hiddenText = document.getElementById(index);
+    hiddenText.style.display = (hiddenText.style.display === 'none') ? 'block' : 'none';
+  }
+</script>
