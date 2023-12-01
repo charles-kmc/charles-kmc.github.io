@@ -12,6 +12,14 @@ tags:
 ---
 Plug and Play approach with diffusion prior for image restoration.
 
-[<kbd>PDF</kbd>](http://academicpages.github.io/files/paper1.pdf) | [<kbd>CODE</kbd>](#)
+<div class="indented-text"> 
+    [<kbd>PDF</kbd>](http://academicpages.github.io/files/paper1.pdf)  [<kbd>CODE</kbd>](#)
+</div>
 
 Recommended citation: C. Kemajou, M. Pereyra, J.F. Giovannelli (2023). "Accelerated Bayesian Plug and Play with diffusion prior. Applications to image restoration." <i> Stay tuned !!</i>.
+
+<style>
+    .indented-text {
+      margin-left: 20px; /* Adjust the value to set the desired indentation */
+    }
+</style>
