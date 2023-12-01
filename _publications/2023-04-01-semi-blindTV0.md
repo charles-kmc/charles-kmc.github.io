@@ -12,14 +12,9 @@ tags:
 ---
 Semi-blind image deblurring.
 
-<div class="indented-text"> 
-    [<kbd>PDF</kbd>](http://academicpages.github.io/files/paper1.pdf)  [<kbd>CODE</kbd>](#)
-</div>
+
+[<kbd>PDF</kbd>](http://academicpages.github.io/files/paper1.pdf)  [<kbd>CODE</kbd>](#)
+
 
 Recommended citation: C. Kemajou, M. Pereyra, J.F. Giovannelli (2023). "A stochastic optimisation unadjusted Langevin method for empirical Bayesian estimation in semi-blind image deblurring problems." <i>SIAM</i>.
 
-<style>
-    .indented-text {
-      margin-left: 20px; /* Adjust the value to set the desired indentation */
-    }
-  </style>
