@@ -13,8 +13,8 @@ tags:
 Plug and Play approach with diffusion prior for image restoration.
 
 <div style="text-align:center;">
-  <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:blue; text-decoration:none; border-radius:5px;">PDF</a> &nbsp;&nbsp; 
-  <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:blue; text-decoration:none; border-radius:5px;">CODE</a>
+  <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px; margin:10px; background-color:rgb(212, 207, 207); color:rgb(69, 68, 68); text-decoration:none; border-radius:5px;">PDF</a> 
+  <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:rgb(212, 207, 207); color:rgb(69, 68, 68); text-decoration:none; border-radius:5px;">CODE</a>
 </div>
 
 
