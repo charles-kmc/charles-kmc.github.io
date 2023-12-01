@@ -12,7 +12,7 @@ tags:
 ---
 Semi-blind image deblurring.
 
-<div style="text-align:center;">
-  <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px; margin:10px; background-color:rgb(212, 207, 207); color:rgb(69, 68, 68); text-decoration:none; border-radius:5px;">PDF</a> 
-  <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:rgb(212, 207, 207); color:rgb(69, 68, 68); text-decoration:none; border-radius:5px;">CODE</a>
+<div style="text-align:center; margin-left: 20px;">
+  <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px; margin:10px; background-color:rgb(212, 207, 207); color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a> 
+  <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:rgb(212, 207, 207); color:rgb(127, 71, 127); text-decoration:none; border-radius:5px; border: 1px solid #333">CODE</a>
 </div>
