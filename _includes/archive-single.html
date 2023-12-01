@@ -53,13 +53,10 @@
     {% endif %}
     
     {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <br> <a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;">PDF</a><a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:rgb(212, 207, 207); color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;">CODE</a></p>
+      <p>Recommended citation: {{ post.citation }} <br> <a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a><a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-    
-      <!-- <p> <a href=" {{ post.paperurl }} "> <h2 class="archive__subtitle"><u>PDF</u></h2> </a> <a href="charles-kmc/charles-kmc.github.io"> <h2 class="archive__subtitle"> CODE </h2> </a></p>
-      <p>Download <a href=" {{ post.paperurl }} "><u class="archive__subtitle">here</u></a></p> -->
     {% endif %} 
 
   </article>
