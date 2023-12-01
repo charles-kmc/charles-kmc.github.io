@@ -13,6 +13,11 @@ tags:
 Plug and Play approach with diffusion prior for image restoration.
 
 [<kbd> PDF </kbd>](http://academicpages.github.io/files/paper1.pdf)  [<kbd> CODE </kbd>](#)
-
+<div style="border: 1px solid #3498db; padding: 8px; border-radius: 3px;">
+  [Read More](https://example.com)
+</div>
+<div style="border: 1px solid #3498db; padding: 8px; border-radius: 3px;">
+  [Read More2](https://example.com)
+</div>
 Recommended citation: C. Kemajou, M. Pereyra, J.F. Giovannelli (2023). "Accelerated Bayesian Plug and Play with diffusion prior. Applications to image restoration." <i> Stay tuned !!</i>.
 
