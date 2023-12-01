@@ -51,12 +51,12 @@
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
-
+<!-- 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
-    {% endif %}
+    {% endif %} -->
     
     {% if post.citation and post.paperurl and post.excerpt %}
       <p>Recommended citation: {{ post.citation }} <br> <a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a><a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
@@ -66,17 +66,19 @@
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
     {% endif %} 
+  
+    <script>
+      function toggleText() {
+        var textElement = document.getElementById("hiddenText");
+        if (textElement.style.display === "none") {
+          textElement.style.display = "block";
+        } else {
+          textElement.style.display = "none";
+        }
+      }
+    </script>
 
   </article>
 </div>
 
-<script>
-  function toggleText() {
-    var textElement = document.getElementById("hiddenText");
-    if (textElement.style.display === "none") {
-      textElement.style.display = "block";
-    } else {
-      textElement.style.display = "none";
-    }
-  }
-</script>
+
