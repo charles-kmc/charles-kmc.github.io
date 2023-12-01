@@ -57,8 +57,12 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p> <a href=" {{ post.paperurl }} "> <h2 class="archive__subtitle"><u>PDF</u></h2> </a> <a href="charles-kmc/charles-kmc.github.io"> <h2 class="archive__subtitle"> CODE </h2> </a></p>
-      <p>Download <a href=" {{ post.paperurl }} "><u class="archive__subtitle">here</u></a></p>
+    <div style="text-align:center;">
+      <a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:rgb(253, 251, 251); color:rgb(100, 100, 223); text-decoration:none; border-radius:5px;">PDF</a> &nbsp;&nbsp; 
+      <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(100, 100, 223); text-decoration:none; border-radius:5px;">CODE</a>
+    </div>
+      <!-- <p> <a href=" {{ post.paperurl }} "> <h2 class="archive__subtitle"><u>PDF</u></h2> </a> <a href="charles-kmc/charles-kmc.github.io"> <h2 class="archive__subtitle"> CODE </h2> </a></p>
+      <p>Download <a href=" {{ post.paperurl }} "><u class="archive__subtitle">here</u></a></p> -->
     {% endif %}
 
   </article>

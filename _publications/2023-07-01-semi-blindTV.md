@@ -12,7 +12,7 @@ tags:
 ---
 Semi-blind image deblurring.
 
-[<kbd>PDF</kbd>](http://academicpages.github.io/files/paper1.pdf)  [<kbd>CODE</kbd>](#)
-
-
-Recommended citation: C. Kemajou, M. Pereyra, J.F. Giovannelli (2023). "A stochastic optimisation unadjusted Langevin method for empirical Bayesian estimation in semi-blind image deblurring problems." <i>SIAM</i>.
+<div style="text-align:center;">
+  <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:blue; text-decoration:none; border-radius:5px;">PDF</a> &nbsp;&nbsp; 
+  <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:blue; text-decoration:none; border-radius:5px;">CODE</a>
+</div>
