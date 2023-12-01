@@ -7,6 +7,7 @@ date: 2023-12-01
 venue: '(Stay tuned !!)'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'C. Kemajou, M. Pereyra, J.F. Giovannelli (2023). &quot;Accelerated Bayesian Plug and Play with diffusion prior. Applications to image restoration.'
+index: 20231201
 tags:
   - paper
 ---

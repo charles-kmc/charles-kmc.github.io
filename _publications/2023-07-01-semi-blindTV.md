@@ -7,6 +7,7 @@ date: 2023-07-01
 venue: 'SIAM'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'C. Kemajou, M. Pereyra, J.F. Giovannelli (2023). &quot;A stochastic optimisation unadjusted Langevin method for empirical Bayesian estimation in semi-blind image deblurring problems.&quot; <i>SIAM</i>.'
+index: 20230701
 tags:
   - paper
 ---
