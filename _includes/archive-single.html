@@ -58,7 +58,7 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %} -->
     
-    {% if post.citation and post.paperurl %}
+    {% if post.citation and post.paperurl and post.excerpt %}
       <p>Recommended citation: {{ post.citation }} <br> <a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a><a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
         <button onclick="toggleText()" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
         <p id="hiddenText" class="hidden">{{post.excerpt}}</p></p>
@@ -69,15 +69,15 @@
   
 
 
-  <script>
+  <!-- <script>
     function toggleText() {
       var hiddenText = document.getElementById("hiddenText");
       hiddenText.style.display = (hiddenText.style.display === 'none') ? 'block' : 'none';
     }
-  </script>
+  </script> -->
 
 
-    <!-- <script>
+    <script>
       function toggleText() {
         var textElement = document.getElementById("hiddenText");
         if (textElement.style.display === "none") {
@@ -86,7 +86,7 @@
           textElement.style.display = "none";
         }
       }
-    </script> -->
+    </script>
 
   </article>
 </div>
