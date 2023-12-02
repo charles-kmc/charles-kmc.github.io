@@ -11,7 +11,7 @@ index: 20230701
 tags:
   - paper
 ---
-<style>
+<!-- <style>
   .hiddentext {
       display: none;
       border: 2px solid #650c5f; /* Set border width and color */
@@ -45,4 +45,4 @@ tags:
         }
       }
 </script>
-
+ -->
