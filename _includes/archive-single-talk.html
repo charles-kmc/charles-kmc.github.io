@@ -11,7 +11,33 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+<style>
+  .hiddentext {
+      padding: 10px;
+      display: none;
+      border: 0.5px solid #650c5f; /* Set border width and color */
+      border-radius:5px;
+      font-family: "Arial Narrow"; /* Set the font family */
+      font-size: 16px; /* Set the font size */
+    } 
+    .title {
+      font-family: "Arial Narrow"; /* Set the font family */
+      font-size: 25px; /* Set the font size */
+      font-weight: bold;
+      color: #804f80;
+    }
+    a {
+      text-decoration: none;
+      color: #0077cc; /* Set the link color */
+    }
 
+    /* Optional: Add different styles when the link is hovered or focused */
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
+    
+</style>
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
@@ -27,16 +53,28 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}" class = "title">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "title">{{ title }}</a>
       {% endif %}
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    {% if post.date %}
+    <p class="page__meta" style="font-family: Arial Narrow; font-size: 15px;"><i class="fa fa-clock-o" aria-hidden="true"></i>
+      {{ post.date | date: '%B %d, %Y' }}
+    </p>
+    {% endif %}
+    {% if post.venue %}
+    <p class="archive__item-excerpt" itemprop="description" style="font-family: Arial Narrow; font-size: 15px;">
+      {{post.type}}, {{ post.venue }},  {{post.location}} 
+    </p> 
+    {% endif %}
+    {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description" style="font-family: Arial Narrow; font-size: 15px;">
+      {{ post.excerpt | markdownify }}
+    </p>
+    {% endif %}
   </article>
 </div>
