@@ -14,7 +14,7 @@ tags:
 <style>
   .hiddentext {
       display: none;
-      border: 2px solid #236348; /* Set border width and color */
+      border: 2px solid #650c5f; /* Set border width and color */
       padding: 10px;
       border-radius:5px;
       font-family: "Arial", sans-serif; /* Set the font family */
@@ -23,7 +23,7 @@ tags:
 </style>
 <div style="margin-left: 20px;">
     <p>
-        Recommended citation: {{ post.citation }}
+        Recommended citation: C. Kemajou, M. Pereyra, J.F. Giovannelli (2023). &quot;A stochastic optimisation unadjusted Langevin method for empirical Bayesian estimation in semi-blind image deblurring problems.&quot; <i>SIAM</i>.
     </p> 
     <p> 
         <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px;   margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a> 

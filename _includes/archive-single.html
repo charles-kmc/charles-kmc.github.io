@@ -14,7 +14,12 @@
 
 <style>
   .hiddentext {
+      padding: 10px;
       display: none;
+      border: 0.5px solid #650c5f; /* Set border width and color */
+      border-radius:5px;
+      font-family: "Arial", sans-serif; /* Set the font family */
+      font-size: 16px; /* Set the font size */
     }
 </style>
 
@@ -59,13 +64,14 @@
     {% endif %} -->
     
     {% if post.citation and post.paperurl and post.excerpt %}
-      <p>Recommended citation: dfwaethb {{ post.citation }}</p> 
-      <p><a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a><a href="https://github.com/charles-kmc" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
+      <p>Recommended citation: {{ post.citation }}</p> 
+      <p>
+        <a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a><a href="https://github.com/charles-kmc" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
         <button onclick='toggleText("{{ post.index }}")' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
         <div id= "{{ post.index }}" class="hiddentext">{{ post.excerpt }}</div>
       </p>
     {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }} </p>
+      <p>Recommended citation yessss: {{ post.citation }} </p>
     {% elsif post.paperurl %}
     {% endif %} 
   

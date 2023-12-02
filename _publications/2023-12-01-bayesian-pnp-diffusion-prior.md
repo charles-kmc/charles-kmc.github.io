@@ -15,7 +15,7 @@ tags:
   .hiddentext {
       padding: 10px;
       display: none;
-      border: 0.5px solid #236348; /* Set border width and color */
+      border: 0.5px solid #650c5f; /* Set border width and color */
       border-radius:5px;
       font-family: "Arial", sans-serif; /* Set the font family */
       font-size: 16px; /* Set the font size */
