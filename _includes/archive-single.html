@@ -60,7 +60,7 @@
     
     {% if post.citation and post.paperurl and post.excerpt %}
       <p>Recommended citation: {{ post.citation }} <br> <a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a><a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
-        <button onclick="toggleText('{{ post.index }}')" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
+        <button onclick='toggleText("{{ post.index }}")' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
         <p id= "{{ post.index }}" class="hidden">chnyrxkrcgftcudtu{{ post.excerpt }}</p></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
