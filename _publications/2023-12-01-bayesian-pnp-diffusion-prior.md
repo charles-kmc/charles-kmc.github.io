@@ -11,11 +11,34 @@ index: 20231201
 tags:
   - paper
 ---
-Plug and Play approach with diffusion prior for image restoration.
-
+<style>
+  .hiddentext {
+      padding: 10px;
+      display: none;
+      border: 0.5px solid #333; /* Set border width and color */
+    }
+</style>
 <div style="margin-left: 20px;">
-  <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a> 
-  <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px; border: 1px solid #333">CODE</a>
+    <p>
+        Recommended citation: {{ post.citation }}
+    </p> 
+    <p> 
+        <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px;   margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a> 
+        <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px; border: 1px solid #333">CODE</a>
+        <button onclick='toggleText()' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
+        <div id= "index" class="hiddentext">
+            Plug and Play approach with diffusion prior for image restoration.
+        </div>
+    </p>
 </div>
 
-
+<script>
+      function toggleText() {
+        var textElement = document.getElementById("index");
+        if (textElement.style.display === "none") {
+          textElement.style.display = "inline-block";
+        } else {
+          textElement.style.display = "none";
+        }
+      }
+</script>
