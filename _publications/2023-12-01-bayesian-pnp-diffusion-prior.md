@@ -11,7 +11,7 @@ index: 20231201
 tags:
   - paper
 ---
-<style>
+<!-- <style>
   .hiddentext {
       padding: 10px;
       display: none;
@@ -44,4 +44,4 @@ tags:
           textElement.style.display = "none";
         }
       }
-</script>
+</script> -->
