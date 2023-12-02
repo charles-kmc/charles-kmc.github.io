@@ -19,12 +19,12 @@ layout: default
       display: none;
       border: 0.5px solid #650c5f; /* Set border width and color */
       border-radius:5px;
-      font-family: "Arial", sans-serif; /* Set the font family */
+      font-family: "Arial Narrow"; /* Set the font family */
       font-size: 16px; /* Set the font size */
     } 
     .title {
-      font-family: "Arial", sans-serif; /* Set the font family */
-      font-size: 25px; /* Set the font size */
+      font-family: "Arial Narrow"; /* Set the font family */
+      font-size: 30px; /* Set the font size */
       font-weight: bold;
       color: #2b2929;
     }
@@ -60,9 +60,9 @@ layout: default
              
         {% if page.citation and page.paperurl and page.excerpt %}
         <p>
-          <div style="font-family: Arial; font-size: 20px;font-weight: bold;">Abstract</div>
-          <div style="font-family: Garamond; font-size: 20px;">{{ page.excerpt }}</div> 
-          <div style="font-family: Arial Narrow; font-size: 20px;">Recommended citation: {{ page.citation }}</div> 
+          <div style="font-family: Arial Narrow; font-size: 20px;font-weight: bold;">Abstract</div>
+          <div style="font-family: Arial Narrow; font-size: 20px;">{{ page.excerpt }}</div> 
+          <div style="font-family: Arial Narrow; font-size: 20px; color: #5b4059;">Recommended citation: {{ page.citation }}</div> 
         </p>
         <p>
             <a href="{{ page.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a>
