@@ -11,9 +11,11 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Applied Mathematics, University of Dschang, 2015
+* M.S. in Applied Mathematics, University of Dschang, 2017
+* M.S. in Industrial Mathematics, University of Dschang, 2019
+* M.S. in Machine learning, African Masters of Machine Intelligence, 2020
+* Ph.D Bayesian inverse problems, Heriot-Watt University, 2024 (expected)
 
 Work experience
 ======
