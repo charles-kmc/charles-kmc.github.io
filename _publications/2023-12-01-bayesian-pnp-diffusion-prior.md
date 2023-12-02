@@ -15,7 +15,10 @@ tags:
   .hiddentext {
       padding: 10px;
       display: none;
-      border: 0.5px solid #333; /* Set border width and color */
+      border: 0.5px solid #236348; /* Set border width and color */
+      border-radius:5px;
+      font-family: "Arial", sans-serif; /* Set the font family */
+      font-size: 16px; /* Set the font size */
     }
 </style>
 <div style="margin-left: 20px;">
@@ -24,7 +27,7 @@ tags:
     </p> 
     <p> 
         <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px;   margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a> 
-        <a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px; border: 1px solid #333">CODE</a>
+        <a href="https://github.com/charles-kmc" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px; border: 1px solid #333">CODE</a>
         <button onclick='toggleText()' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
         <div id= "index" class="hiddentext">
             Plug and Play approach with diffusion prior for image restoration.

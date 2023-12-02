@@ -59,8 +59,8 @@
     {% endif %} -->
     
     {% if post.citation and post.paperurl and post.excerpt %}
-      <p>Recommended citation: {{ post.citation }}</p> 
-      <p><a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a><a href="charles-kmc/charles-kmc.github.io" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
+      <p>Recommended citation: dfwaethb {{ post.citation }}</p> 
+      <p><a href="{{ post.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a><a href="https://github.com/charles-kmc" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
         <button onclick='toggleText("{{ post.index }}")' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
         <div id= "{{ post.index }}" class="hiddentext">{{ post.excerpt }}</div>
       </p>
