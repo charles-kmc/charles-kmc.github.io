@@ -26,7 +26,17 @@ layout: default
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 30px; /* Set the font size */
       font-weight: bold;
-      color: #2b2929;
+      color: #804f80;
+      a {
+      text-decoration: none;
+      color: #0077cc; /* Set the link color */
+    }
+
+    /* Optional: Add different styles when the link is hovered or focused */
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+    }
     }
 </style>
 <div id="main" role="main">
@@ -62,7 +72,7 @@ layout: default
         <p>
           <div style="font-family: Arial Narrow; font-size: 20px;font-weight: bold;">Abstract</div>
           <div style="font-family: Arial Narrow; font-size: 20px;">{{ page.excerpt }}</div> 
-          <div style="font-family: Arial Narrow; font-size: 20px; color: #5b4059;">Recommended citation: {{ page.citation }}</div> 
+          <div style="font-family: Arial Narrow; font-size: 20px; color: rgb(48, 45, 45);">Recommended citation: {{ page.citation }}</div> 
         </p>
         <p>
             <a href="{{ page.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a>
