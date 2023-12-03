@@ -40,14 +40,14 @@
     }
   
     /* Optional: Add different styles when the link is hovered or focused */
-    .maintitle:hover,
-    .maintitle:focus {
-      text-decoration: underline;
+    .maintitle:hover{
+      text-decoration: none;
       color:rgb(127, 71, 127)
     }
-    
-
-    
+    .maintitle:focus {
+      text-decoration: none;
+      color:rgb(127, 71, 127)
+    }  
 </style>
 
 <div class="{{ include.type | default: "list" }}__item">
