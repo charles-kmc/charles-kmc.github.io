@@ -16,7 +16,7 @@
   .hiddentext {
       padding: 10px;
       display: none;
-      border: 0.5px solid #650c5f; /* Set border width and color */
+      border: 0.5px solid rgb(127, 71, 127); /* Set border width and color */
       border-radius:5px;
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 20px; /* Set the font size */
@@ -26,18 +26,15 @@
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 25px; /* Set the font size */
       font-weight: bold;
-      color: #650c5f; /* Set the link color */
-    }
-    .maintitle {
-      font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 28px; /* Set the font size */
-      text-decoration: none; /* Remove underlines */
       color: #445b6c; /* Set the link color */
+      text-decoration: none;
     }
-    
-    /* Styles for links with the "no-underline" class when hovered */
-    .title:hover {
-      color: #6c2250; /* Set the link color on hover */
+  
+    /* Optional: Add different styles when the link is hovered or focused */
+    .title:hover,
+    .title:focus {
+      text-decoration: underline;
+      color:rgb(127, 71, 127)
     }
     
 

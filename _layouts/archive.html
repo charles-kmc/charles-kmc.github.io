@@ -6,7 +6,7 @@ layout: default
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 28px; /* Set the font size */
       /* font-weight: bold; */
-      color: #804f80;
+      color: rgb(127, 71, 127);
     }
 </style>
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -24,7 +24,7 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="title">jwbdsv;bojbsao{{ page.title }}</h1>
+      <h1 class="title">{{ page.title }}</h1>
     {% endunless %}
     {{ content }}
   </div>
