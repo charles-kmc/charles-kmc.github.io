@@ -22,19 +22,15 @@
     } 
     .title {
       font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 30px; /* Set the font size */
-      font-weight: bold;
-      color: #804f80;
+      font-size: 25px; /* Set the font size */
+      /* font-weight: bold; */
+      color: #445b6c;
     }
-    a {
-      text-decoration: none;
-      color: #0077cc; /* Set the link color */
-    }
-
+    
     /* Optional: Add different styles when the link is hovered or focused */
-    a:hover,
-    a:focus {
-      text-decoration: underline;
+    .title:hover,
+    .title:focus {
+      text-decoration: none;
     }
     
 </style>
@@ -56,7 +52,7 @@
       {% if post.link %}
         <a href="{{ post.link }}" class = "title">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "title">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "title" style="text-decoration: none;">{{ title }}</a>
       {% endif %}
     </h3>
     {% if post.date %}
