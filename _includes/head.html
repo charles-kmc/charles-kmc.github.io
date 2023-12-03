@@ -3,6 +3,18 @@
 <meta charset="utf-8">
 
 {% include seo.html %}
+<style>
+  /* Default styles for links */
+  a {
+    color: #181919; /* Set the default link color */
+    text-decoration: none; /* Remove underlines */
+  }
+
+  /* Styles for links when hovered */
+  a:hover {
+    color: #0077cc; /* Set the link color on hover */
+  }
+</style>
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
