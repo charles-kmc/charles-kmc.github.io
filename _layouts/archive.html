@@ -2,31 +2,12 @@
 layout: default
 ---
 <style>
-  .hiddentext {
-      padding: 10px;
-      display: none;
-      border: 0.5px solid #650c5f; /* Set border width and color */
-      border-radius:5px;
-      font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 16px; /* Set the font size */
-    } 
     .title {
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 30px; /* Set the font size */
-      font-weight: bold;
+      /* font-weight: bold; */
       color: #804f80;
     }
-    a {
-      text-decoration: none;
-      color: #0077cc; /* Set the link color */
-    }
-
-    /* Optional: Add different styles when the link is hovered or focused */
-    a:hover,
-    a:focus {
-      text-decoration: underline;
-    }
-    
 </style>
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
