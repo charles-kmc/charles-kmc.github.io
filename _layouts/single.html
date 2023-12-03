@@ -56,35 +56,35 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
-        {% if page.modified %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
-        
-        {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %}
+          {% if page.modified %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
+          {% endif %}
+          
+          {% if page.collection == 'teaching' %}
+            <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif page.venue and page.date %}
+            <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% elsif page.date %}
+            <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          {% endif %}
         
              
-        {% if page.citation and page.paperurl and page.excerpt %}
-        <p>
-          <div style="font-family: Arial Narrow; font-size: 20px;font-weight: bold;">Abstract</div>
-          <div style="font-family: Arial Narrow; font-size: 20px;">{{ page.excerpt }}</div> 
-          <div style="font-family: Arial Narrow; font-size: 20px; color: rgb(98, 50, 82);">Recommended citation: {{ page.citation }}</div> 
-        </p>
-        <p>
-            <a href="{{ page.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a>
-            <a href="https://github.com/charles-kmc" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
-            <!-- <button onclick='toggleText("{{ page.index }}")' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
-            <div id= "{{ page.index }}" class="hiddentext">{{ page.excerpt }}</div> -->
-        </p>
-        {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
-        {% endif %}
-    
+          {% if page.citation and page.paperurl and page.excerpt %}
+          <p>
+            <div style="font-family: Arial Narrow; font-size: 20px;font-weight: bold;">Abstract</div>
+            <div style="font-family: Arial Narrow; font-size: 20px;">{{ page.excerpt }}</div> 
+            <div style="font-family: Arial Narrow; font-size: 20px; color: rgb(98, 50, 82);">Recommended citation: {{ page.citation }}</div> 
+          </p>
+          <p>
+              <a href="{{ page.paperurl }}" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a>
+              <a href="https://github.com/charles-kmc" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
+              <!-- <button onclick='toggleText("{{ page.index }}")' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
+              <div id= "{{ page.index }}" class="hiddentext">{{ page.excerpt }}</div> -->
+          </p>
+          {% elsif page.citation %}
+            <p>Recommended citation: {{ page.citation }} </p>
+          {% endif %}
+      
         </header>
       {% endunless %}
 
