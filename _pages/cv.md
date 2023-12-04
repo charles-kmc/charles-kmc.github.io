@@ -39,26 +39,26 @@ redirect_from:
 <div class = "title"> 
 Education
 </div>
-<span class="container">
+<div class="container">
   <div class="text">B.S. in Applied Mathematics, University of Dschang,</div>
   <div class="date">2012 - 2015</div><br>
-</span>
-<span class="container">
+</div>
+<div class="container">
   <div class="text">M.S. in Applied Mathematics, University of Dschang,</div>
   <div class="date">2015 - 2017</div>
-</span>
-<span class="container">
+</div>
+<div class="container">
   <div class="text"> M.S. in Industrial Mathematics, University of Dschang,</div>
   <div class="date">2017 - 2019</div>
-</span>
-<span class="container">
-  <div>M.S. in Machine learning, African Masters of Machine Intelligence,</div>
+</div>
+<div class="container">
+  <div class="text">M.S. in Machine learning, African Masters of Machine Intelligence,</div>
   <div class="date">2019 - 2020</div>
-</span>
-<span class="container">
+</div>
+<div class="container">
   <div class="text">Ph.D Bayesian inverse problems, Heriot-Watt University,</div>
   <div class="date">2021 - Todate</div>
-</span>
+</div>
 
 
 <div class = "title"> 
