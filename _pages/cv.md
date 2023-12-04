@@ -10,7 +10,7 @@ redirect_from:
   .title {
     font-family: "Arial Narrow"; /* Set the font family */
       font-size: 25px; /* Set the font size */
-      /* font-weight: bold; */
+      font-weight: bold;
       color: rgb(61, 53, 61);
   }
   /* Style for the container */
@@ -22,7 +22,7 @@ redirect_from:
 
   /* Optional: Add styling for text and date if needed */
   .text {
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: "Arial Narrow"; /* Set the font family */
     font-size: 15px; /* Set the font size */
   }
@@ -41,7 +41,7 @@ Education
 </div>
 <div class="container">
   <div class="text">B.S. in Applied Mathematics, University of Dschang,</div>
-  <div class="date">2012 - 2015</div><br>
+  <div class="date">2012 - 2015</div>
 </div>
 <div class="container">
   <div class="text">M.S. in Applied Mathematics, University of Dschang,</div>
