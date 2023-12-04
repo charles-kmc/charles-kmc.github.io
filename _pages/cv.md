@@ -11,7 +11,7 @@ redirect_from:
     font-family: "Arial Narrow"; /* Set the font family */
       font-size: 25px; /* Set the font size */
       font-weight: bold;
-      color: rgb(61, 53, 61);
+      color: rgb(105, 101, 69);
   }
   /* Style for the container */
   .container {
@@ -37,7 +37,8 @@ redirect_from:
 {% include base_path %}
 
 <div class = "title"> 
-Education
+  Education
+</div>
 <div class="container">
   <div class="text">Ph.D Bayesian inverse problems, Heriot-Watt University,</div>
   <div class="date">2021 - Todate</div>
@@ -54,13 +55,12 @@ Education
   <div class="text">M.S. in Applied Mathematics, University of Dschang,</div>
   <div class="date">2015 - 2017</div>
 </div>
-</div>
 <div class="container">
   <div class="text">B.S. in Applied Mathematics, University of Dschang,</div>
   <div class="date">2012 - 2015</div>
 </div>
 <!-- sparator -->
-<div class = "title"> 
+<div class = "title" style = "margin-bottom: 20px;"> 
 Work experience
 </div>
 <div class="container">
@@ -72,7 +72,7 @@ Work experience
   <div class="date">Jun. - Nov. 2018</div>
 </div>
 <!-- sparator -->
-<div class = "title">  
+<div class = "title" style = "margin-bottom: 20px;">  
   Skills and Certificates
 </div>
 <div>
@@ -86,39 +86,37 @@ Work experience
   </div>
 </div>
 <!-- sparator -->
-<div class = "title">
+<div class = "title" style = "margin-bottom: 20px;">
 Publications
 </div>
 <div>
-  <ul>{% for post in site.publications %}
+  {% for post in site.publications %}
     {% include archive-single-cv.html %}
-    {% endfor %}
-  </ul>
+  {% endfor %}
+  
 </div>
 <!-- sparator -->
-<div class = "title">  
+<div class = "title" style = "margin-bottom: 20px;">  
 Talks
 </div>
 <div>
-  <ul>
     {% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
     {% endfor %}
-  </ul>
 </div>
 <!-- sparator -->
-<div class = "title">
+<div class = "title" style = "margin-bottom: 20px;">
 Teaching
 </div>
 <div>
-  <ul>
     {% for post in site.teaching %}
     {% include archive-single-cv.html %}
     {% endfor %}
-  </ul>
 </div>
 <!-- sparator -->
-<div class = "title">  
+<div class = "title" style = "margin-bottom: 20px;">  
 Service and leadership
 </div>
-* Currently signed in to 43 different slack teams
+<div class = "text">
+Currently signed in to 43 different slack teams
+</div>
