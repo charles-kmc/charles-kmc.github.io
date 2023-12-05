@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 <style>
-  .title {
+  .title_main {
     font-family: "Arial Narrow"; /* Set the font family */
       font-size: 25px; /* Set the font size */
       font-weight: bold;
@@ -36,7 +36,7 @@ redirect_from:
 
 {% include base_path %}
 
-<div class = "title"> 
+<div class = "title_main"> 
   Education
 </div>
 <div class="container">
@@ -60,7 +60,7 @@ redirect_from:
   <div class="date">2012 - 2015</div>
 </div>
 <!-- sparator -->
-<div class = "title" style = "margin-top: 20px;"> 
+<div class = "title_main" style = "margin-top: 20px;"> 
 Work experience
 </div>
 <div class="container">
@@ -72,7 +72,7 @@ Work experience
   <div class="date">Jun. - Nov. 2018</div>
 </div>
 <!-- sparator -->
-<div class = "title" style = "margin-top: 20px;">  
+<div class = "title_main" style = "margin-top: 20px;">  
   Skills and Certificates
 </div>
 <div>
@@ -86,7 +86,7 @@ Work experience
   </div>
 </div>
 <!-- sparator -->
-<div class = "title" style = "margin-top: 20px; margin-bottom: 0px;">
+<div class = "title_main" style = "margin-top: 20px; margin-bottom: 0px;">
 Publications
 </div>
 <div>
@@ -95,7 +95,7 @@ Publications
   {% endfor %}
 </div>
 <!-- sparator -->
-<div class = "title" style = "margin-top: 20px;">  
+<div class = "title_main" style = "margin-top: 20px;">  
 Talks
 </div>
 <div>
@@ -104,7 +104,7 @@ Talks
     {% endfor %}
 </div>
 <!-- sparator -->
-<div class = "title" style = "margin-top: 20px;">
+<div class = "title_main" style = "margin-top: 20px;">
 Teaching
 </div>
 <div>
@@ -113,7 +113,7 @@ Teaching
     {% endfor %}
 </div>
 <!-- sparator -->
-<div class = "title" style = "margin-top: 20px;">  
+<div class = "tititle_maintle" style = "margin-top: 20px;">  
 Service and leadership
 </div>
 <div class = "text">
