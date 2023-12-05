@@ -12,14 +12,13 @@
   {% assign title = post.title %}
 {% endif %}
 <style>
-  .hiddentext {
-      padding: 10px;
-      display: none;
-      border: 0.5px solid rgb(127, 71, 127); /* Set border width and color */
-      border-radius:5px;
-      font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 16px; /* Set the font size */
-    } 
+    .title_main {
+        font-family: "Arial Narrow"; /* Set the font family */
+        font-size: 25px; /* Set the font size */
+        /* font-weight: bold; */
+        /* color: #816060; */
+        color: rgb(127, 71, 127);
+    }
     .title {
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 18px; /* Set the font size */
@@ -58,7 +57,7 @@
     {% endif %}
     <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0px;">
       {% if post.link %}
-        <a href="{{ post.link }}" class = "title" style="text-decoration: none;color:rgb(56, 76, 127);font-size: 25px;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}" class = "title_main" style="text-decoration: none;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "title" style="text-decoration: none; margin-top: 0px;">{{ title }}</a>
       {% endif %}
