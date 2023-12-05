@@ -17,14 +17,14 @@
       padding: 10px;
       display: none;
       border: 0.5px solid rgb(127, 71, 127); /* Set border width and color */
-      border-radius:5px;
+      border-radius:2px;
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 15px; /* Set the font size */
       
     } 
     .title {
       font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 25px; /* Set the font size */
+      font-size: 20px; /* Set the font size */
       /* font-weight: bold; */
       color: rgb(127, 71, 127);
       text-decoration: none;
@@ -34,7 +34,7 @@
 
     .maintitle {
       font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 25px; /* Set the font size */
+      font-size: 20px; /* Set the font size */
       /* font-weight: bold; */
       color: #445b6c; /* Set the link color */
     }
@@ -84,7 +84,7 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }} </p>
+          <p style = "font-family: Arial Narrow; font-size: 15px; color:rgb(108, 107, 108);">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B, %Y" }} </p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -98,9 +98,9 @@
     {% if post.citation and post.paperurl and post.excerpt %}
       <p style = "font-family: Arial Narrow; font-size: 15px; color:rgb(98, 50, 82);">Recommended citation: {{ post.citation }}</p> 
       <p>
-        <a href="{{ post.paperurl }}" style="font-size: 12px;display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a>
-        <a href="https://github.com/charles-kmc" style="font-size: 12px;display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
-        <button onclick='toggleText("{{ post.index }}")' style="font-size: 12px;display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
+        <a href="{{ post.paperurl }}" style="font-size: 8px;display:inline-block; padding:5px 10px; margin:5px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a>
+        <a href="https://github.com/charles-kmc" style="font-size: 8px;display:inline-block; padding:5px 10px; margin:5px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
+        <button onclick='toggleText("{{ post.index }}")' style="font-size: 8px;display:inline-block; padding:5px 10px; margin:5px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
         <div id= "{{ post.index }}" class="hiddentext">{{ post.excerpt }}</div>
       </p>
     {% elsif post.citation %}
