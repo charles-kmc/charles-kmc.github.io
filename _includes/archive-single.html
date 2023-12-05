@@ -22,15 +22,13 @@
       font-size: 15px; /* Set the font size */
       
     } 
-    .title {
+    .title_single {
       font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 20px; /* Set the font size */
+      font-size: 22px; /* Set the font size */
       /* font-weight: bold; */
-      color: rgb(127, 71, 127);
+      color: #f5911f;
       text-decoration: none;
     }
-  
-    
 
     .maintitle {
       font-family: "Arial Narrow"; /* Set the font family */
@@ -62,7 +60,7 @@
 
     <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0px;">
       {% if post.link %}
-        <a href="{{ post.link }}" class = "title">
+        <a href="{{ post.link }}" class = "title_single">
           {{ title }}
         </a> 
         <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i>

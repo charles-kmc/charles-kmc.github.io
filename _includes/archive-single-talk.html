@@ -20,11 +20,17 @@
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 16px; /* Set the font size */
     } 
-    .title {
+    .title_talk {
       font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 20px; /* Set the font size */
+      font-size: 18px; /* Set the font size */
       font-weight: bold;
-      color: #804f80;
+      color: rgb(105, 101, 69);
+    }
+    .title_main_talk {
+      font-family: "Arial Narrow"; /* Set the font family */
+      font-size: 22px; /* Set the font size */
+      font-weight: bold;
+      color: #f5911f;
     }
     a {
       text-decoration: none;
@@ -53,9 +59,11 @@
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}" class = "title" style = "text-decoration: none;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}" class = "title_talk" style = "text-decoration: none;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% elsif post.venue %}
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "title_talk" style = "text-decoration: none">{{ title }}</a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "title" style = "text-decoration: none">{{ title }}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "title_main_talk" style = "text-decoration: none">{{ title }}</a>
       {% endif %}
     </h2>
     {% if post.read_time %}
