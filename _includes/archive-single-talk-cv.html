@@ -30,7 +30,7 @@
 </style>
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <li>
+    <!-- <li> -->
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -42,7 +42,7 @@
           alt="">
       </div>
     {% endif %}
-    <h3 class="archive__item-title" itemprop="headline">
+    <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0px;">
       {% if post.link %}
         <a href="{{ post.link }}" class = "title" style="text-decoration: none;">
           {{ title }}
@@ -67,7 +67,7 @@
       {{post.type}} at {{ post.venue }},  {{post.location}}
     </p>
     {% endif %}
-    </li>
+    <!-- </li> -->
   </article>
 </div>
 
