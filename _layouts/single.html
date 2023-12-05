@@ -24,7 +24,7 @@ layout: default
     } 
     .title {
       font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 25px; /* Set the font size */
+      font-size: 20px; /* Set the font size */
       /* font-weight: bold; */
       text-decoration: none;
       color: #445b6c; /* Set the link color */
@@ -65,14 +65,14 @@ layout: default
              
           {% if page.citation and page.paperurl and page.excerpt %}
           <p>
-            <div style="font-family: Arial Narrow; font-size: 20px;font-weight: bold;">Abstract</div>
-            <div style="font-family: Arial Narrow; font-size: 20px;">{{ page.excerpt }}</div> 
-            <div style="font-family: Arial Narrow; font-size: 20px; color: rgb(98, 50, 82);">Recommended citation: {{ page.citation }}</div> 
+            <div style="font-family: Arial Narrow; font-size: 18px;font-weight: bold;">Abstract</div>
+            <div style="font-family: Arial Narrow; font-size: 15px;">{{ page.excerpt }}</div> 
+            <div style="font-family: Arial Narrow; font-size: 15px; color: rgb(98, 50, 82);">Recommended citation: {{ page.citation }}</div> 
           </p>
           <p>
-              <a href="{{ page.paperurl }}" style="font-size: 12px;display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a>
-              <a href="https://github.com/charles-kmc" style="font-size: 12px;display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
-              <!-- <button onclick='toggleText("{{ page.index }}")' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
+              <a href="{{ page.paperurl }}" style="font-size: 12px;display:inline-block; padding:5px 10px; margin:5px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a>
+              <a href="https://github.com/charles-kmc" style="font-size: 12px;display:inline-block; padding:5px 10px; margin:5px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">CODE</a>
+              <!-- <button onclick='toggleText("{{ page.index }}")' style="display:inline-block; padding:5px 10px; margin:5px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
               <div id= "{{ page.index }}" class="hiddentext">{{ page.excerpt }}</div> -->
           </p>
           {% elsif page.citation %}
