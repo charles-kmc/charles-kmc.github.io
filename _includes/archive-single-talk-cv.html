@@ -22,7 +22,7 @@
     } 
     .title {
       font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 20px; /* Set the font size */
+      font-size: 22px; /* Set the font size */
       /* font-weight: bold; */
       /* color: #445b6c; */
       color: #f5911f;
@@ -70,8 +70,8 @@
       {% endif %}
     </h3>
     {% if post.date %}
-    <p class="page__meta" style = "font-family: Arial Narrow;">
-      <i class="fa fa-clock-o" aria-hidden="true"></i> 
+    <p class="page__meta">
+      <i class="fa fa-clock-o" aria-hidden="true" style="font-family: Arial Narrow; font-size: 15px;"></i> 
       {{ post.date | date: '%B %d, %Y' }}
     </p>
     {% endif %}
