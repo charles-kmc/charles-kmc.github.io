@@ -113,7 +113,7 @@ Teaching
     {% endfor %}
 </div>
 <!-- sparator -->
-<div class = "tititle_maintle" style = "margin-top: 20px;">  
+<div class = "title_main" style = "margin-top: 20px;">  
 Service and leadership
 </div>
 <div class = "text">
