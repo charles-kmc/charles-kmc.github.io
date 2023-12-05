@@ -86,14 +86,13 @@ Work experience
   </div>
 </div>
 <!-- sparator -->
-<div class = "title" style = "margin-top: 20px;">
+<div class = "title" style = "margin-top: 20px; margin-bottom: 0px;">
 Publications
 </div>
 <div>
   {% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}
-  
 </div>
 <!-- sparator -->
 <div class = "title" style = "margin-top: 20px;">  
