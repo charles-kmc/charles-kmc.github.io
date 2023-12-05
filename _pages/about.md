@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 <style>
-  .title {
+  .title_local {
     font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 28px; /* Set the font size */
-      /* font-weight: bold; */
-      color: rgb(127, 71, 127);
+    font-size: 20px; /* Set the font size */
+    font-weight: bold;
+    color: rgb(29, 28, 27);
   }
 </style>
 
@@ -20,7 +20,11 @@ redirect_from:
 
 I am ...
 
-<div class = "title"> 
+<div class = "title_local"> 
+  News
+</div>
+
+<div class = "title_local"> 
 Publications
 </div>
   <ul>
@@ -29,12 +33,12 @@ Publications
     {% endfor %}
   </ul>
 
-<div class = "title"> 
+<div class = "title_local"> 
   Projects
 </div>
 
   
-<div class = "title"> 
+<div class = "title_local"> 
   Talks
 </div>
 
