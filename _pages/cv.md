@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,7 +11,7 @@ redirect_from:
     font-family: "Arial Narrow"; /* Set the font family */
       font-size: 25px; /* Set the font size */
       font-weight: bold;
-      color: rgb(105, 101, 69);
+      color: rgb(29, 28, 27);
   }
   /* Style for the container */
   .container {
