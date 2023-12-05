@@ -9,7 +9,7 @@ redirect_from:
 <style>
   .title_main {
     font-family: "Arial Narrow"; /* Set the font family */
-      font-size: 25px; /* Set the font size */
+      font-size: 20px; /* Set the font size */
       font-weight: bold;
       color: rgb(29, 28, 27);
   }
