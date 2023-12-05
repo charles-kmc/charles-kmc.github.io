@@ -2,7 +2,7 @@
 layout: default
 ---
 <style>
-    .title {
+    .title_main {
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 22px; /* Set the font size */
       /* font-weight: bold; */
@@ -24,7 +24,7 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="title">{{ page.title }}</h1>
+      <h1 class="title_main">{{ page.title }}</h1>
     {% endunless %}
     {{ content }}
   </div>

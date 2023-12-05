@@ -22,7 +22,7 @@
       font-size: 15px; /* Set the font size */
       
     } 
-    .title_single {
+    .title_main {
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 22px; /* Set the font size */
       /* font-weight: bold; */
@@ -30,7 +30,7 @@
       text-decoration: none;
     }
 
-    .maintitle {
+    .title_post {
       font-family: "Arial Narrow"; /* Set the font family */
       font-size: 18px; /* Set the font size */
       /* font-weight: bold; */
@@ -39,7 +39,7 @@
     }
   
     /* Optional: Add different styles when the link is hovered or focused */
-    .maintitle:hover{
+    .title_post:hover{
       color:rgb(204, 63, 65)
     }
     
@@ -61,7 +61,7 @@
 
     <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0px;">
       {% if post.link %}
-        <a href="{{ post.link }}" class = "title_single">
+        <a href="{{ post.link }}" class = "title_main">
           {{ title }}
         </a> 
         <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i>
@@ -70,7 +70,7 @@
           </span>
         </a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "maintitle" style="text-decoration: none;">
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink" class = "title_post" style="text-decoration: none;">
           {{ title }}
         </a>
       {% endif %}
