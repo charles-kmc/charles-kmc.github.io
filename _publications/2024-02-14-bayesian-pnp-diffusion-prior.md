@@ -7,7 +7,7 @@ date: 2024-02-14
 venue: '(Stay tuned !!)'
 paperurl: 'https://arxiv.org/pdf/2403.04536'
 citation: 'Kemajou Mbakam, Charlesquin and Pereyra, Marcelo and Giovannelli, Jean-François (2024). &quot;Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior.&quot; <i>ECCV</i>.'
-index: 20230701
+index: 20240214
 code_link: "https://github.com/charles-kmc"
 tags:
   - paper
