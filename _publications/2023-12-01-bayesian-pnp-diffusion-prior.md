@@ -1,47 +1,14 @@
 ---
-title: "Accelerated Bayesian Plug and Play with diffusion prior. Applications to image restoration"
+title: "Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior"
 collection: publications
 permalink: /publication/2023/12/2023-12-01-bayesian-pnp-diffusion-prior
-excerpt: 'Plug and Play approach with diffusion prior for image restoration.'
-date: 2023-12-01
+excerpt: 'Score-based diffusion methods provide a powerful strategy to solve image restoration tasks by flexibly combining a pre-trained foundational prior model with a likelihood function specified during test time. Such methods are predominantly derived from two stochastic processes: reversing Ornstein-Uhlenbeck, which underpins the celebrated denoising diffusion probabilistic models (DDPM) and denoising diffusion implicit models (DDIM), and the Langevin diffusion process. The solutions delivered by DDPM and DDIM are often remarkably realistic, but they are not always consistent with measurements because of likelihood intractability issues and the associated required approximations. Alternatively, using a Langevin process circumvents the intractable likelihood issue, but usually leads to restoration results of inferior quality and longer computing times. This paper presents a novel and highly computationally efficient image restoration method that carefully embeds a foundational DDIM denoiser within an empirical Bayesian Langevin algorithm, which jointly calibrates key model hyper-parameters as it estimates the model's posterior mean. Extensive experimental results on three canonical tasks (image deblurring, super-resolution, and inpainting) demonstrate that the proposed approach improves on state-of-the-art strategies both in image estimation accuracy and computing time.'
+date: 2024-02-14
 venue: '(Stay tuned !!)'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'C. Kemajou, M. Pereyra, J.F. Giovannelli (2023). &quot;Accelerated Bayesian Plug and Play with diffusion prior. Applications to image restoration.'
-index: 20231201
+paperurl: 'https://arxiv.org/pdf/2403.04536'
+citation: 'Kemajou Mbakam, Charlesquin and Pereyra, Marcelo and Giovannelli, Jean-François (2024). &quot;Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior.&quot; <i>ECCV</i>.'
+index: 20230701
+code_link: "https://github.com/charles-kmc"
 tags:
   - paper
 ---
-<!-- <style>
-  .hiddentext {
-      padding: 10px;
-      display: none;
-      border: 0.5px solid #650c5f; /* Set border width and color */
-      border-radius:5px;
-      font-family: "Arial", sans-serif; /* Set the font family */
-      font-size: 16px; /* Set the font size */
-    }
-</style>
-<div style="margin-left: 20px;">
-    <p>
-        Recommended citation: {{ post.citation }}
-    </p> 
-    <p> 
-        <a href="http://academicpages.github.io/files/paper1.pdf" style="display:inline-block; padding:10px 20px;   margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">PDF</a> 
-        <a href="https://github.com/charles-kmc" style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px; border: 1px solid #333">CODE</a>
-        <button onclick='toggleText()' style="display:inline-block; padding:10px 20px; margin:10px; background-color:white; color:rgb(127, 71, 127); text-decoration:none; border-radius:5px;border: 1px solid #333">ABS</button>
-        <div id= "index" class="hiddentext">
-            Plug and Play approach with diffusion prior for image restoration.
-        </div>
-    </p>
-</div>
-
-<script>
-      function toggleText() {
-        var textElement = document.getElementById("index");
-        if (textElement.style.display === "none") {
-          textElement.style.display = "inline-block";
-        } else {
-          textElement.style.display = "none";
-        }
-      }
-</script> -->

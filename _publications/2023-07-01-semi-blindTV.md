@@ -6,7 +6,7 @@ excerpt: 'This paper presents a novel stochastic optimisation methodology to per
 date: 2023-07-01
 venue: 'SIAM'
 paperurl: 'https://arxiv.org/pdf/2403.04536'
-citation: 'Kemajou Mbakam, Charlesquin and Pereyra, Marcelo and Giovannelli, Jean-Fran{\c{c}}ois (2023). &quot;A stochastic optimisation unadjusted Langevin method for empirical Bayesian estimation in semi-blind image deblurring problems.&quot; <i>SIAM</i>.'
+citation: 'Kemajou Mbakam, Charlesquin and Pereyra, Marcelo and Giovannelli, Jean-François (2023). &quot;A stochastic optimisation unadjusted Langevin method for empirical Bayesian estimation in semi-blind image deblurring problems.&quot; <i>SIAM</i>.'
 index: 20230701
 code_link: "https://github.com/charles-kmc"
 tags:
