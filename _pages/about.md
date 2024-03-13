@@ -14,6 +14,12 @@ redirect_from:
     font-weight: bold;
     color: rgb(29, 28, 27);
   }
+  /* Default styles for links */
+  .greedy-nav {
+    position: fixed; 
+    width: 100%; /* Set a fixed width */
+    top: 0; /* Aligner la barre de navigation en haut de la fenêtre */
+  }
 </style>
 
 {% include base_path %}
