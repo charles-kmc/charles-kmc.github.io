@@ -6,7 +6,7 @@ excerpt: "Score-based diffusion methods provide a powerful strategy to solve ima
 date: 2024-02-01
 venue: 'In preparation'
 paperurl: '#'
-citation: 'Kemajou Mbakam, Charlesquin and Pereyra, Marcelo and Giovannelli, Jean-François. &quot;Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior.&quot; <i>In preparation</i>. 2024'
+citation: 'Kemajou Mbakam, Charlesquin and Pereyra, Marcelo and Giovannelli, Jean-François. &quot;Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior.&quot; <i>ECCV</i>. 2024'
 index: 20240201
 code_link: "https://github.com/charles-kmc"
 tags:
