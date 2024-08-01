@@ -6,7 +6,7 @@ excerpt: "Bayesian statistics is a cornerstone of imaging sciences, underpinning
 date: 2024-13-015
 venue: 'SIAM - under reveiw'
 paperurl: 'https://arxiv.org/abs/2405.08179'
-citation: 'Thong Y. W., David and Kemajou Mbakam, Charlesquin and Pereyra, Marcelo and Giovannelli, Jean-François. &quot;Do Bayesian imaging methods report trustworthy probabilities?.&quot; <i>Under review</i>.'
+citation: 'Thong Y. W., David and Kemajou Mbakam, Charlesquin and Pereyra, Marcelo and Giovannelli, Jean-François. &quot;Do Bayesian imaging methods report trustworthy probabilities?.&quot; <i>Under review</i>. 2024'
 index: 20240513
 code_link: "https://github.com/charles-kmc"
 tags:

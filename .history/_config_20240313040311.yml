@@ -82,9 +82,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "The man of the orthogonal speech"
+  name             : "The man of orthogonal speech"
   avatar           : "profil1.jpg"
-  bio              : "Third year PhD student"
+  bio              : "PhD student"
   location         : "Heriot-Watt, UK"
   employer         :
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
