@@ -15,8 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Research Associate at `Heriot-Watt University` in Edinburgh, UK. My research focuses on Bayesian inverse problems, particularly leveraging data-driven priors, with a primary application in computational imaging.
+I am a Research Associate at [Heriot-Watt University](https://www.hw.ac.uk/) in Edinburgh, UK. My research focuses on Bayesian inverse problems, particularly leveraging data-driven priors, with a primary application in computational imaging.
 
-I am a Research Associate at Heriot-Watt University, Edinburgh, UK, where my research focuses on Bayesian inverse problems, particularly leveraging score-based diffusion models as implicit priors to solve challenging problems in computational imaging. My work bridges advanced statistical methods with machine learning approaches, aiming to improve the precision and efficiency of image reconstruction and analysis. My PhD research, supervised by Professor `Marcelo Pereyra` and Professor `Jean-François Giovannelli`, centered around the Bayesian methods for image inverse problems.
+I am a Research Associate at Heriot-Watt University, Edinburgh, UK, where my research focuses on Bayesian inverse problems, particularly leveraging score-based diffusion models as implicit priors to solve challenging problems in computational imaging. My work bridges advanced statistical methods with machine learning approaches, aiming to improve the precision and efficiency of image reconstruction and analysis. My PhD research, supervised by Professor [Marcelo Pereyra](https://www.macs.hw.ac.uk/~mp71/) and Professor [Jean-François Giovannelli](http://giovannelli.free.fr/), centered around the Bayesian methods for image inverse problems.
 
 I am actively seeking postdoctoral opportunities in computational imaging, Bayesian methods, or related interdisciplinary fields, where I can further contribute to advancements in imaging science, signal processing, or applied mathematics.
