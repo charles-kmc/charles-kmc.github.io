@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I successfuly passed my PhD viva, with `Prof. Audrey Repetti` as internal examiner and  `Prof. Martin Benning` as external examiner.
