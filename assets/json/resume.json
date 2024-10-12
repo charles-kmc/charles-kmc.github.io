@@ -69,7 +69,7 @@
       "location": "Edinburgh, UK",
       "url": "https://www.hw.ac.uk/",
       "area": "Imaging inverse problems",
-      "studyType": "PhD",
+      "studyType": "PhD Degree",
       "startDate": "2021-01-11",
       "endDate": "2024-09-17",
       "title": "Empirical Bayesian image restoration by Langevin sampling with total variation and denoising diffusion priors",
@@ -82,7 +82,7 @@
       "location": "Rwanda",
       "url": "https://aimsammi.org/",
       "area": "Artificial Intelligence",
-      "studyType": "Master",
+      "studyType": "Masters Degree",
       "startDate": "2019-10-10",
       "endDate": "2020-12-15",
       "title": "Empirical Bayesian estimation for semi-blind inverse problems. Application to deblurring image with a Gaussian kernel",
@@ -95,7 +95,7 @@
       "location": "Cameroon",
       "url": "https://aimsammi.org/",
       "area": "Industrial Mathematics",
-      "studyType": "Master",
+      "studyType": "Masters Degree",
       "startDate": "2017-08-27",
       "endDate": "2019-02-16",
       "title": "Design and Implementation of the database management system for the Cameroonian Chamber of Commerce (CCIMA)",
@@ -108,7 +108,7 @@
       "location": "Cameroon",
       "url": "",
       "area": "Applied Mathematics",
-      "studyType": "Master",
+      "studyType": "Masters Degree",
       "startDate": "2015",
       "endDate": "2017",
       "title": "Modeling, analyzing, and simulation of cabbage nematode; Pultella Xylostella",
@@ -120,7 +120,7 @@
       "location": "Cameroon",
       "url": "",
       "area": "Applied Mathematics",
-      "studyType": "Bachelor",
+      "studyType": "Bachelors Degree",
       "startDate": "2012",
       "endDate": "2015",
       "score": ""
@@ -155,16 +155,12 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Python",
+      "level": "intermediate"
+    },
+    {
+      "name": "MatLab",
+      "level": "intermediate"
     }
   ],
   "languages": [
@@ -183,6 +179,15 @@
     },
     {
       "name": "Deep learning"
+    },
+    {
+      "name": "Optmisation"
+    },
+    {
+      "name": "Generative models"
+    },
+    {
+      "name": "Diffusion models"
     }
   ],
   "references": [
