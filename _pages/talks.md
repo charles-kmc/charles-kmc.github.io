@@ -2,8 +2,8 @@
 layout: page
 permalink: /talks/
 title: talks
-description: Materials for courses you taught. Replace this text with your description.
-years: [2024, 2023, 2022, 2021, 2020, 2019]
+description: Contributed talks and posters.
+years: [2024]
 nav: true
 nav_order: 2
 ---
