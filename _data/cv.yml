@@ -7,45 +7,40 @@
       value: 31th March 1994
     - name: Languages
       value: French, English
-
 - title: Education
   type: time_table
   contents:
     - title: Reseach associate
       institution: Heriot-Watt University, Edinburgh, UK
       year: 2024
-
     - title: PhD degree in Mathematics actuarial
       institution: Heriot-Watt University, Edinburgh, UK
       year: 2021 - 2024
       description:
-        - <b>Title</b>: Empirical Bayesian image restoration by Langevin sampling with total variation and denoising diffusion priors.
-        - <b>Supervisor</b>: Prof. Marcelo Pereyra, MACS Director of Research | Maxwell Institute for Mathematical Sciences \& School of Mathematical and Computer Sciences (MACS) Heriot-Watt University, UK
-        - <b>Co-supervisor</b>: Prof. Jean-François Giovannelli, Groupe Signal et Image - IMS Université de Bordeaux, France
-    
+        - <b>Title:</b> Empirical Bayesian image restoration by Langevin sampling with total variation and denoising diffusion priors.
+        - <b>Supervisor:</b> Prof. Marcelo Pereyra, MACS Director of Research | Maxwell Institute for Mathematical Sciences \& School of Mathematical and Computer Sciences (MACS) Heriot-Watt University, UK
+        - <b>Co-supervisor:</b> Prof. Jean-François Giovannelli, Groupe Signal et Image - IMS Université de Bordeaux, France
     - title: Master Degree in Machine Intelligence 
       institution: African Master of Machine Intelligence (AMMI), Rwanda
       year: 2019 - 2020
       description:
-        - <b>Title</b>: Empirical Bayesian estimation for semi-blind inverse problems. Application to deblurring image with a Gaussian kernel
-        - <b>Supervisor</b>: Prof. Marcelo Pereyra, MACS Director of Research | Maxwell Institute for Mathematical Sciences \& School of Mathematical and Computer Sciences (MACS) Heriot-Watt University, UK
-
+        - <b>Title:</b> Empirical Bayesian estimation for semi-blind inverse problems. Application to deblurring image with a Gaussian kernel
+        - <b>Supervisor:</b> Prof. Marcelo Pereyra, MACS Director of Research | Maxwell Institute for Mathematical Sciences \& School of Mathematical and Computer Sciences (MACS) Heriot-Watt University, UK
     - title: Masters Degree in Industrial Mathematics 
       institution: African Institute of Mathematical sciences (AIMS), Cameroon
       year: 2017 - 2019
       description:
-        - <b>Title</b>: Design and Implementation of the database management system for the Cameroonian Chamber of Commerce (CCIMA)
-        - <b>Supervisor</b>: Prof. Massimo Marchiori, University of Padova, Italy
+        - <b> Title: </b> Design and Implementation of the database management system for the Cameroonian Chamber of Commerce (CCIMA)
+        - <b>Supervisor:</b> Prof. Massimo Marchiori, University of Padova, Italy
     - title: Masters in applied Mathematics 
       institution: University of Dschang, Cameroon
       year: 2015 - 2017
       description:
-        - <b>Title</b>: Modeling, analyzing, and simulation of cabbagecabbage&apos;ss nematode; Pultella Xylostella.
-        - <b>Supervisor</b>: Prof. Massimo Marchiori, University of Padova, Italy
+        - <b>Title:</b> Modeling, analyzing, and simulation of cabbagecabbage&apos;ss nematode; Pultella Xylostella.
+        - <b>Supervisor:</b> Prof. Massimo Marchiori, University of Padova, Italy
     - title: Bachelor in Mathematics 
       institution: University of Dschang, Cameroon
       year: 2012 - 2015
-      
 - title: Experience
   type: time_table
   contents:
@@ -56,7 +51,6 @@
     - title: Web designer and database mangement (Intern)
       institution: Chamber of Commerce, Industry Mines and Crafts (CCIMA), Cameroon
       year: 2018
-
 - title: Academic Interests
   type: nested_list
   contents:
@@ -68,7 +62,6 @@
       items:
         - Generatives models.
         - Diffusion models.
-
 - title: Other Interests
   type: list
   contents:
