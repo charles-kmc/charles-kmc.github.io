@@ -22,22 +22,12 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
+  
   "experience": [
     {
       "title": "Climate change",
       "organization": "Rwanda Energy Group (REG) - LKMP",
-      "location": "Rwanda",
+      "location": "Kigali, Rwanda",
       "position": "Intern",
       "startDate": "2019-07-01",
       "endDate": "2019-10-01",
@@ -45,8 +35,8 @@
     },
     {
       "title": "Web designer and database management",
-      "organization": "Chamber of Commerce, Industry Mines and Crafts (CCIMA), Cameroon",
-      "location": "Cameroon",
+      "organization": "Chamber of Commerce, Industry Mines and Crafts",
+      "location": "Douala, Cameroon",
       "position": "Intern",
       "startDate": "2018-06-01",
       "endDate": "2018-11-30",
@@ -55,7 +45,7 @@
   ],
   "education": [
     {
-      "institution": "Heriot-Watt University, Edinburgh, UK",
+      "institution": "Heriot-Watt University",
       "location": "Edinburgh, UK",
       "url": "https://www.hw.ac.uk/",
       "area": "Imaging inverse problems",
@@ -65,7 +55,7 @@
       "score": ""
     },
     {
-      "institution": "Heriot-Watt University, Edinburgh, UK",
+      "institution": "Heriot-Watt University",
       "location": "Edinburgh, UK",
       "url": "https://www.hw.ac.uk/",
       "area": "Imaging inverse problems",
@@ -78,8 +68,8 @@
       "courses": ["Bayesian Statistics", "Deep learning", "Inverse problems"]
     },
     {
-      "institution": "African Master of Machine Intelligence (AMMI), Rwanda",
-      "location": "Rwanda",
+      "institution": "African Master of Machine Intelligence",
+      "location": "Kigali, Rwanda",
       "url": "https://aimsammi.org/",
       "area": "Artificial Intelligence",
       "studyType": "Masters Degree",
@@ -91,8 +81,8 @@
       "courses": ["Deep learning", "Reinforcement learning"]
     },
     {
-      "institution": "African Institute of Mathematical Sciences (AIMS), Cameroon",
-      "location": "Cameroon",
+      "institution": "African Institute of Mathematical Sciences",
+      "location": "Dschang, Cameroon",
       "url": "https://aimsammi.org/",
       "area": "Industrial Mathematics",
       "studyType": "Masters Degree",
@@ -104,8 +94,8 @@
       "courses": ["Optimisation", "Control theory", "Statistics and probability"]
     },
     {
-      "institution": "University of Dschang, Cameroon",
-      "location": "Cameroon",
+      "institution": "University of Dschang",
+      "location": "Dschang, Cameroon",
       "url": "",
       "area": "Applied Mathematics",
       "studyType": "Masters Degree",
@@ -116,8 +106,8 @@
       "score": ""
     },
     {
-      "institution": "University of Dschang, Cameroon",
-      "location": "Cameroon",
+      "institution": "University of Dschang",
+      "location": "Dschang, Cameroon",
       "url": "",
       "area": "Applied Mathematics",
       "studyType": "Bachelors Degree",
