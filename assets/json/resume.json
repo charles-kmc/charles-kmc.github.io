@@ -118,16 +118,35 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com"
+      "name": "Enterprise Design Thinking Practitioner",
+      "date": "2019-02",
+      "issuer": "IBM",
+      "url": "https://www.youracclaim.com/badges/568c774e-7123-422a-8d6e-7b1eee7008c8?source=linked_in_profile"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com"
+      "name": "Reinforcement Learning for Trading Strategies",
+      "date": "2020-05",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/4XS3KWN98UQH"
+    },
+    {
+      "name": "Fundamentals of Machine Learning in Finance",
+      "date": "2020-02",
+      "issuer": "Coursera",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/VC84SPSUNUHP"
+    },
+    
+    {
+      "name": "Convolutional Neural Networks",
+      "date": "2023-07",
+      "issuer": "Coursera",
+      "url": "https://coursera.org/share/c940fd60d1c2e1be7f7f0dbd94e1861c"
+    },
+    {
+      "name": "Generative AI with Large Language Models",
+      "date": "20234-04",
+      "issuer": "Coursera",
+      "url": "https://coursera.org/share/06410510e7c92c52886d075c1b4883e3"
     }
   ],
   "publications": [
@@ -135,12 +154,19 @@
       "name": "Marginal Likelihood Estimation in Semiblind Image Deconvolution: A Stochastic Approximation Approach",
       "publisher": "SIAM journal",
       "releaseDate": "2024",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies"
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/23M1584496?casa_token=zayT_NPBcIwAAAAA:JuYDBIgXJkX24hioK0nkl0vCigr7VOkb2L_OEZbl34t5Wu6z9JnOz8FHKoFZr9zd10inOhoj7Yc"
     },
     {
       "name": "Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior",
-      "publisher": "Journal of Mathematical Imaging and Vision",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt"
+      "publisher": "Journal of Mathematical Imaging and Vision, under review",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/pdf/2409.04384"
+    },
+    {
+      "name": "Do Bayesian imaging methods report trustworthy probabilities?",
+      "publisher": "SIAM journal, under review",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/pdf/2405.08179"
     }
   ],
   "skills": [
