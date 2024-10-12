@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I successfuly passed my PhD viva, with [Prof. Audrey Repetti](https://researchportal.hw.ac.uk/en/persons/audrey-repetti) as internal examiner and  [Prof. Martin Benning](https://profiles.ucl.ac.uk/95169-martin-benning/about) as external examiner.
+I successfully passed my PhD viva, with [Prof. Audrey Repetti](https://researchportal.hw.ac.uk/en/persons/audrey-repetti) as the internal examiner and [Prof. Martin Benning](https://profiles.ucl.ac.uk/95169-martin-benning/about) as the external examiner.
