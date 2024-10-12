@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/teaching.md -->
+<!-- _pages/presentations.md -->
 
 <!-- Bibsearch Feature -->
 
