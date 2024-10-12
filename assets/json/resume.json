@@ -22,7 +22,7 @@
       }
     ]
   },
-  
+
   "experience": [
     {
       "title": "Climate change",
@@ -171,13 +171,16 @@
       "name": "Deep learning"
     },
     {
-      "name": "Optmisation"
+      "name": "Optimisation"
     },
     {
       "name": "Generative models"
     },
     {
       "name": "Diffusion models"
+    },
+    {
+      "name": "Computational imaging"
     }
   ],
   "references": [
