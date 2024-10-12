@@ -2,4 +2,4 @@ I am a Research Associate at `Heriot-Watt University` in Edinburgh, UK. My resea
 
 I am a Research Associate at Heriot-Watt University, Edinburgh, UK, where my research focuses on Bayesian inverse problems, particularly leveraging score-based diffusion models as implicit priors to solve challenging problems in computational imaging. My work bridges advanced statistical methods with machine learning approaches, aiming to improve the precision and efficiency of image reconstruction and analysis. My PhD research, supervised by Professor `Marcelo Pereyra` and Professor `Jean-François Giovannelli`, centered around the Bayesian methods for image inverse problems.
 
-I am actively seeking postdoctoral opportunities in computational imaging, Bayesian methods, or related interdisciplinary fields, where I can further contribute to advancements in imaging science, signal processing, or applied mathematics.
+<!-- I am actively seeking postdoctoral opportunities in computational imaging, Bayesian methods, or related interdisciplinary fields, where I can further contribute to advancements in imaging science, signal processing, or applied mathematics. -->
