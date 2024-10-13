@@ -2,7 +2,7 @@
 layout: page
 permalink: /talks/
 title: talks
-description: Contributed talks and posters.
+description:
 years: [2024]
 nav: true
 nav_order: 2
