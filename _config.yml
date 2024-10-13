@@ -78,7 +78,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: # your GitHub user name
+github_username: charles-kmc # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: 1010907 # Inspire HEP author ID
@@ -133,10 +133,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Legend # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: The Legend # blog_name will be displayed in your blog page
+blog_description:
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+# lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
@@ -162,28 +162,13 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: legend # put your disqus shortname
+disqus_shortname: The Legend # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  # - name: medium.com
-  #   rss_url: https://medium.com/@al-folio/feed
-  # - name: Google Blog
-  #   posts:
-  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-  #       published_date: 2024-05-14
-
-# -----------------------------------------------------------------------------
-# Newsletter
-# -----------------------------------------------------------------------------
-
-newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
 # Collections
