@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A step by step diffusion models
-date: 2024-10-08 11:12:00-0400
+date: 2024-10-09 17:39:00
 description:
 # tags: formatting math
 # categories: sample-posts

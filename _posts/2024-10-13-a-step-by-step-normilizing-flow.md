@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A step by step normilizing flow
-date: 2024-10-13 11:12:00-0400
+date: 2024-10-13 11:12:00
 description:
 # tags: formatting math
 # categories: sample-posts
