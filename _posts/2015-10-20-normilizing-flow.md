@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A step by step diffusion models 
-date: 2015-10-20 11:12:00-0400
+title: A step by step normilizing flow 
+date: 2024-10-13 11:12:00-0400
 description:
 # tags: formatting math
 # categories: sample-posts
