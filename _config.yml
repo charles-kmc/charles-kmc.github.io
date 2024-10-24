@@ -11,7 +11,7 @@ description: >
 footer_text: >
 keywords: Deep learning, Diffusion model, Bayesian model, Computional imaging # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌎 # the emoji used 🚀 as the favicon (alternatively, provide image name in /assets/img/)⚛️
 
 url: https://charles-kmc.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -129,7 +129,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: The Legend # blog_name will be displayed in your blog page
+blog_name: Computational Tools # blog_name will be displayed in your blog page
 blog_description:
 permalink: /blog/:year/:title/
 # lsi: false # produce an index for related posts
