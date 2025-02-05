@@ -1,0 +1,46 @@
+{
+    "sourceFile": "_bibliography/papers.bib",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1738768782797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1738768790282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,8 @@\n   author={Mbakam, Charlesquin Kemajou and Giovannelli, Jean-Francois and Pereyra, Marcelo},\r\n   journal={arXiv preprint arXiv:2409.04384},\r\n   year={2024},\r\n   html={https://arxiv.org/pdf/2409.04384},\r\n-  html={https://arxiv.org/pdf/2405.08179},\r\n   code={https://github.com/charles-kmc},\r\n   pdf={example_pdf.pdf},\r\n   selected={true},\r\n }\r\n"
+                },
+                {
+                    "date": 1738768798510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n   title={Do Bayesian imaging methods report trustworthy probabilities?},\r\n   author={Thong, David YW and Mbakam, Charlesquin Kemajou and Pereyra, Marcelo},\r\n   journal={arXiv preprint arXiv:2405.08179},\r\n   year={2024},\r\n-  html={https://arxiv.org/pdf/2409.04384},\r\n+html={https://arxiv.org/pdf/2405.08179},\r\n   code={https://github.com/charles-kmc},\r\n   pdf={example_pdf.pdf},\r\n   selected={true},\r\n }\r\n"
+                },
+                {
+                    "date": 1738768805334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n   title={Do Bayesian imaging methods report trustworthy probabilities?},\r\n   author={Thong, David YW and Mbakam, Charlesquin Kemajou and Pereyra, Marcelo},\r\n   journal={arXiv preprint arXiv:2405.08179},\r\n   year={2024},\r\n-html={https://arxiv.org/pdf/2405.08179},\r\n+  html={https://arxiv.org/pdf/2405.08179},\r\n   code={https://github.com/charles-kmc},\r\n   pdf={example_pdf.pdf},\r\n   selected={true},\r\n }\r\n"
+                },
+                {
+                    "date": 1738768822362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n   journal={arXiv preprint arXiv:2409.04384},\r\n   year={2024},\r\n   html={https://arxiv.org/pdf/2409.04384},\r\n   code={https://github.com/charles-kmc},\r\n-  pdf={example_pdf.pdf},\r\n+\r\n   selected={true},\r\n }\r\n \r\n @article{thong2024bayesian,\r\n"
+                },
+                {
+                    "date": 1738768829051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,8 @@\n   year={2024},\r\n   publisher={SIAM},\r\n   html={https://epubs.siam.org/doi/pdf/10.1137/23M1584496?casa_token=Gh-l8zGGQqsAAAAA:mJgxbTCFP86uRDi0LLZwWfLkxtyHHWdwmPD-mCwUkYpDj1fSW14H_Pqol-RMJYwpnDueec938Kk},\r\n   code={https://github.com/charles-kmc/Semi-blind-image-deblurring-problems-with-TV},\r\n-  pdf={example_pdf.pdf},\r\n   selected={true},\r\n }\r\n \r\n @article{mbakam2024empirical,\r\n@@ -28,9 +27,8 @@\n   journal={arXiv preprint arXiv:2409.04384},\r\n   year={2024},\r\n   html={https://arxiv.org/pdf/2409.04384},\r\n   code={https://github.com/charles-kmc},\r\n-\r\n   selected={true},\r\n }\r\n \r\n @article{thong2024bayesian,\r\n"
+                },
+                {
+                    "date": 1738768840909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,8 @@\n   title={Do Bayesian imaging methods report trustworthy probabilities?},\r\n   author={Thong, David YW and Mbakam, Charlesquin Kemajou and Pereyra, Marcelo},\r\n   journal={arXiv preprint arXiv:2405.08179},\r\n   year={2024},\r\n-  html={https://arxiv.org/pdf/2405.08179},\r\n+  link={https://arxiv.org/pdf/2405.08179},\r\n   code={https://github.com/charles-kmc},\r\n-  pdf={example_pdf.pdf},\r\n   selected={true},\r\n }\r\n"
+                },
+                {
+                    "date": 1738768846482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   title={Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior},\r\n   author={Mbakam, Charlesquin Kemajou and Giovannelli, Jean-Francois and Pereyra, Marcelo},\r\n   journal={arXiv preprint arXiv:2409.04384},\r\n   year={2024},\r\n-  html={https://arxiv.org/pdf/2409.04384},\r\n+  link={https://arxiv.org/pdf/2409.04384},\r\n   code={https://github.com/charles-kmc},\r\n   selected={true},\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1738768782797,
+            "name": "Commit-0",
+            "content": "---\r\n---\r\n\r\n@string{aps = {American Physical Society,}}\r\n\r\n@article{mbakam2024marginal,\r\n  abbr={SIAM},\r\n  bibtex_show={true},\r\n  title={Marginal Likelihood Estimation in Semiblind Image Deconvolution: A Stochastic Approximation Approach},\r\n  author={Mbakam, Charlesquin Kemajou and Pereyra, Marcelo and Giovannelli, Jean-Fran{\\c{c}}ois},\r\n  journal={SIAM Journal on Imaging Sciences},\r\n  volume={17},\r\n  number={2},\r\n  pages={1206--1254},\r\n  year={2024},\r\n  publisher={SIAM},\r\n  html={https://epubs.siam.org/doi/pdf/10.1137/23M1584496?casa_token=Gh-l8zGGQqsAAAAA:mJgxbTCFP86uRDi0LLZwWfLkxtyHHWdwmPD-mCwUkYpDj1fSW14H_Pqol-RMJYwpnDueec938Kk},\r\n  code={https://github.com/charles-kmc/Semi-blind-image-deblurring-problems-with-TV},\r\n  pdf={example_pdf.pdf},\r\n  selected={true},\r\n}\r\n\r\n@article{mbakam2024empirical,\r\n  abbr={JMIV},\r\n  bibtex_show={true},\r\n  title={Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior},\r\n  author={Mbakam, Charlesquin Kemajou and Giovannelli, Jean-Francois and Pereyra, Marcelo},\r\n  journal={arXiv preprint arXiv:2409.04384},\r\n  year={2024},\r\n  html={https://arxiv.org/pdf/2409.04384},\r\n  html={https://arxiv.org/pdf/2405.08179},\r\n  code={https://github.com/charles-kmc},\r\n  pdf={example_pdf.pdf},\r\n  selected={true},\r\n}\r\n\r\n@article{thong2024bayesian,\r\n  abbr={SIAM},\r\n  bibtex_show={true},\r\n  title={Do Bayesian imaging methods report trustworthy probabilities?},\r\n  author={Thong, David YW and Mbakam, Charlesquin Kemajou and Pereyra, Marcelo},\r\n  journal={arXiv preprint arXiv:2405.08179},\r\n  year={2024},\r\n  html={https://arxiv.org/pdf/2409.04384},\r\n  code={https://github.com/charles-kmc},\r\n  pdf={example_pdf.pdf},\r\n  selected={true},\r\n}\r\n"
+        }
+    ]
+}
