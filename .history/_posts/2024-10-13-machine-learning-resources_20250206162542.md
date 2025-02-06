@@ -17,11 +17,6 @@ Challenges in computer vison
 - **Domain shifts**
 - **Inbalance data**
 <!--
-<h3> Computer Vison </h3>
-Challenges in computer vison
-
-- **Domain shifts**
-- **Inbalance data**
 
 $$
 \begin{equation}\label{eq: test}
