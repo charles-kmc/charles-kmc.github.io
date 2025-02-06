@@ -9,9 +9,7 @@ categories: generative-models
 ---
 
 <h3> Introduction </h3>
-In this post, I will work you through some technical tools to effectively prepare a succesful Machine learning 
-
-
+In this post, I will work you through some technical tools to effectively prepare a succesful Machine learning
 
 $$
 \begin{equation}\label{eq: test}

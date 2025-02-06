@@ -12,7 +12,7 @@ categories: generative-models
 In this post, I will work you through some technical tools to effectively prepare a succesful Machine learning interview role!
 
 <h3> Computer Vison </h3>
-Challenges in computer vison 
+Challenges in computer vison
 
 $$
 \begin{equation}\label{eq: test}

@@ -9,9 +9,7 @@ categories: generative-models
 ---
 
 <h3> Introduction </h3>
-In this post, I 
-
-
+In this post, I
 
 $$
 \begin{equation}\label{eq: test}

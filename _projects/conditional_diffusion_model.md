@@ -8,8 +8,7 @@ category: work
 related_publications: true
 ---
 
-In this project, we are more interested in exploring conditional diffusion model for imaging inverse problems. 
-
+In this project, we are more interested in exploring conditional diffusion model for imaging inverse problems.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

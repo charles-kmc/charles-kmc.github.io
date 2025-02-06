@@ -16,7 +16,6 @@ Challenges in computer vison:
 - Domain shifts: 
 - inbalance data:
 
-
 $$
 \begin{equation}\label{eq: test}
 \sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2

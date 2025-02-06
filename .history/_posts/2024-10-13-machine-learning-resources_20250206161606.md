@@ -16,13 +16,11 @@ Challenges in computer vison:
 - Domain shifts: 
 - inbalance data:
 
-
 $$
 \begin{equation}\label{eq: test}
 \sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2
 \end{equation}
 $$
-
 
 # Notes_250206_182854.md
 
@@ -32,9 +30,10 @@ $$
 
 ### Conception in Step 1
 
-**Challenge**:  
+**Challenge**:
+
 - Domain shifts
-- Inbalanced data 
+- Inbalanced data
 
 **Pixel-wise classification**:  
 **Instant classification**:  
@@ -44,7 +43,6 @@ $$
 **ResNet**:  
 **VGG**:  
 **Skip-connection**:  
-**Vision transformer**:  
+**Vision transformer**:
 
 ---
-

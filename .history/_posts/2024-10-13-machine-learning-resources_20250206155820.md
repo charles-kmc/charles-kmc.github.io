@@ -9,9 +9,7 @@ categories: generative-models
 ---
 
 <h3> Introduction </h3>
-In this post, I will work you through some technical tools to effectively prepared 
-
-
+In this post, I will work you through some technical tools to effectively prepared
 
 $$
 \begin{equation}\label{eq: test}

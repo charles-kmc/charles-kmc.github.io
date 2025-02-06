@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Machine learning 
+title: Machine learning
 date: 2024-10-09 17:39:00
 description:
 # tags: formatting math

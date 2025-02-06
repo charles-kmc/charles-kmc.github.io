@@ -14,7 +14,7 @@ In this post, I will work you through some technical tools to effectively prepar
 <h3> Computer Vison </h3>
 Challenges in computer vison:
 - Domain shifts: 
-- 
+-
 
 $$
 \begin{equation}\label{eq: test}

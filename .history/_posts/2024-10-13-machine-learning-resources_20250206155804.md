@@ -11,8 +11,6 @@ categories: generative-models
 <h3> Introduction </h3>
 In this post, I will work you through some technical tool
 
-
-
 $$
 \begin{equation}\label{eq: test}
 \sum_{k=1}^\infty |\langle x, e_k \rangle|^2 \leq \|x\|^2
