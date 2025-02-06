@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 7,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1738768782797,
@@ -36,6 +36,14 @@
                 {
                     "date": 1738768846482,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   title={Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior},\r\n   author={Mbakam, Charlesquin Kemajou and Giovannelli, Jean-Francois and Pereyra, Marcelo},\r\n   journal={arXiv preprint arXiv:2409.04384},\r\n   year={2024},\r\n-  html={https://arxiv.org/pdf/2409.04384},\r\n+  link={https://arxiv.org/pdf/2409.04384},\r\n   code={https://github.com/charles-kmc},\r\n   selected={true},\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1738874880564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   number={2},\r\n   pages={1206--1254},\r\n   year={2024},\r\n   publisher={SIAM},\r\n-  html={https://epubs.siam.org/doi/pdf/10.1137/23M1584496?casa_token=Gh-l8zGGQqsAAAAA:mJgxbTCFP86uRDi0LLZwWfLkxtyHHWdwmPD-mCwUkYpDj1fSW14H_Pqol-RMJYwpnDueec938Kk},\r\n+  link={https://epubs.siam.org/doi/pdf/10.1137/23M1584496?casa_token=Gh-l8zGGQqsAAAAA:mJgxbTCFP86uRDi0LLZwWfLkxtyHHWdwmPD-mCwUkYpDj1fSW14H_Pqol-RMJYwpnDueec938Kk},\r\n   code={https://github.com/charles-kmc/Semi-blind-image-deblurring-problems-with-TV},\r\n   selected={true},\r\n }\r\n \r\n@@ -25,9 +25,9 @@\n   title={Empirical Bayesian image restoration by Langevin sampling with a denoising diffusion implicit prior},\r\n   author={Mbakam, Charlesquin Kemajou and Giovannelli, Jean-Francois and Pereyra, Marcelo},\r\n   journal={arXiv preprint arXiv:2409.04384},\r\n   year={2024},\r\n-  link={https://arxiv.org/pdf/2409.04384},\r\n+  html={https://arxiv.org/pdf/2409.04384},\r\n   code={https://github.com/charles-kmc},\r\n   selected={true},\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1738874888260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   number={2},\r\n   pages={1206--1254},\r\n   year={2024},\r\n   publisher={SIAM},\r\n-  link={https://epubs.siam.org/doi/pdf/10.1137/23M1584496?casa_token=Gh-l8zGGQqsAAAAA:mJgxbTCFP86uRDi0LLZwWfLkxtyHHWdwmPD-mCwUkYpDj1fSW14H_Pqol-RMJYwpnDueec938Kk},\r\n+  html={https://epubs.siam.org/doi/pdf/10.1137/23M1584496?casa_token=Gh-l8zGGQqsAAAAA:mJgxbTCFP86uRDi0LLZwWfLkxtyHHWdwmPD-mCwUkYpDj1fSW14H_Pqol-RMJYwpnDueec938Kk},\r\n   code={https://github.com/charles-kmc/Semi-blind-image-deblurring-problems-with-TV},\r\n   selected={true},\r\n }\r\n \r\n@@ -37,8 +37,8 @@\n   title={Do Bayesian imaging methods report trustworthy probabilities?},\r\n   author={Thong, David YW and Mbakam, Charlesquin Kemajou and Pereyra, Marcelo},\r\n   journal={arXiv preprint arXiv:2405.08179},\r\n   year={2024},\r\n-  link={https://arxiv.org/pdf/2405.08179},\r\n+  html={https://arxiv.org/pdf/2405.08179},\r\n   code={https://github.com/charles-kmc},\r\n   selected={true},\r\n }\r\n"
                 }
             ],
             "date": 1738768782797,
