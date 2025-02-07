@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine learning resources
-date: 2024-10-09 17:39:00
+date: 2025-0-09 17:39:00
 description:
 # tags: formatting math
 categories: generative-models
