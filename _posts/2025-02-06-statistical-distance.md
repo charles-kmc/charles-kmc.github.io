@@ -28,7 +28,7 @@ When $$ P $$ and $$ Q $$ are associated with probability densities $$ p $$ and $
     \text{TV}(P,Q)= \frac{1}{2}\int_{x \in A} |p(x) - q(x)|dx.
 \end{equation}
 
-Notice that \eqref{tv2} reveals that TV distance is equivant the $$\ell_1$$ distance between densities.
+Notice that \eqref{eq:tv2} reveals that TV distance is equivant the $$\ell_1$$ distance between densities.
 
 <h3> Kullback-Leibler (KL) divergence </h3>
 Introduced by Solomon Kullback and Richard Leibler, KL divergence (also called relative entropy) is a statistical distance that measure how much a model probability $$P$$ is different from a true probability distribution $$Q$$. For continuous probability distribution $$P$$ and $$Q$$, the KL divergence is given by,
@@ -82,8 +82,19 @@ When $$P$$ and $$Q$$ are empirical distributions with samples $$X_1, \dots,X_n$$
 
 In practical application, wesserstein distance is a natural way to compare probability distributions of two random variables $$X$$ and $$Y$$, where one variable is deviated from the other by small, non-uniform pertubations.
 
-<h3> Maximum Mean Discrepancy </h3>
+<h3> Maximum Mean Discrepancy (MMD) </h3>
+MMD is a distance on the space of probability measures which has found numerous applications in machine learning and non-parametric testing. The distance is based on the notion of embedding probabilities in a reproducing kernel hilbert space (RKHS). This means each probability distribution is represented as an element of th RKHS. The key point is to embedded probability distributions into an infinite-dimensional features spaces, while allowing one to compare and manipulate distributions using Hilbert space operations such as inner products, distances, projections, linear transformations, and spectral analysis. 
 
+Let $$\mathcal{F}_k$$ to be a unit ball in a reproducing kernel hilbert space, where $$k$$ is a kernel measuring similarity. The MMD between $$P$$ and $$Q$$ is defened as follows:
+
+\begin{equation}
+    \text{MMD}(P,Q) = \sup_{f\in\mathcal{F}_k}|\mathbb{E}_{X\sim P}\left[f(X)\right] - \mathbb{E}_{Y\sim Q}\left[f(Y)\right]|.
+\end{equation}
+This distance can be rewritten as follows
+\begin{equation}
+    \text{MMD}(P,Q) = \mathbb{E}_{X,X'\sim P}k(X,X') - 2\mathbb{E}_{Y\sim Q, X\sim P}k(X,Y)+ \mathbb{E}_{Y,Y'\sim P}k(Y,Y').
+\end{equation}
+In practical application, the MMD measure is quite used because it is simple to evaluate. Notice that MMD measure consist of expectation values for which wa can use empirical expectation.  
 <h3> Jensen-Shannon divergence </h3>
 
 <h3> f-divergence </h3>
