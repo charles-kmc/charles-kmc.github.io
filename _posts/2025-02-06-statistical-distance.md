@@ -9,9 +9,9 @@ categories: generative-models
 ---
 
 <h3> Introduction </h3>
-In this block, we will discuss common distances and metrics between distributions that are essential in statistics.
+In this block, we explore key distances and metrics between distributions that are essential in statistics. Evaluating distance between two distributions has become ubiqutous task in various research fields and applications. For instance, in generative adversarial network (GAN), the primary objective is to minimize the distance between the training distribution and the generated distribution. Another example is independence testing, where we are given samples $$(X_1, Y_1), \dots, (X_n, Y_n) \sim P_{XY}$$ and we want test the distance between the joint distribution $$P_{XY}$$ and the product of marginal distributions $$P_XP_Y$$. We discuss several important measures including total variation, KL divergence, maximum mean discrepancy, f-divergence and wasserstein distance.
 
-Let consider a measurable space $$ \mathcal{M}=\left(\Omega, \mathcal{F}\right) $$ and two probability measures $$P$$ and $$ Q $$ defined of $$\mathcal{M}$$. We say $$ Q $$ dominate $$ P  $$ when the following statement is true. If $$ Q(A)=0 $$ for some set $$ A $$ then it has to be the case that $$ P(A) $$ is also $$ 0 $$.
+Before delving into the details, let's first consider a measurable space $$ \mathcal{M}=\left(\Omega, \mathcal{F}\right) $$ and two probability distributions $$P$$ and $$ Q $$ defined of $$\mathcal{M}$$. We say $$ Q $$ dominate $$ P  $$ when the following statement hold: If $$ Q(A)=0 $$ for some set $$ A $$ then it has to be the case that $$ P(A) $$ is also $$ 0 $$.
 
 <h3> Total variation (TV) distance </h3>
 Total variation distance is a statistical distance between two probability distributions. Mathematically, it is defined as follows
@@ -34,17 +34,17 @@ Notice that \eqref{tv2} reveals that TV distance is equivant the $$\ell_1$$ dist
 Introduced by Solomon Kullback and Richard Leibler, KL divergence (also called relative entropy) is a statistical distance that measure how much a model probability $$P$$ is different from a true probability distribution $$Q$$. For continuous probability distribution $$P$$ and $$Q$$, the KL divergence is given by,
 
 \begin{equation}
-    \text{D_{KL}}(P,Q) = \int p(x) \log \left(\dfrac{p(x)}{q(x)}\right)dx.
+    \text{D}_{KL}(P,Q) = \int p(x) \log \left(\dfrac{p(x)}{q(x)}\right)dx.
 \end{equation}
 
 For discrete probability distribution $$P$$ and $$Q$$, the KL divergence is given by,
 
 \begin{equation}
-    \text{D_{KL}}(P,Q) = \sum_{x} p(x) \log \left(\dfrac{p(x)}{q(x)}\right)dx.
+    \text{D}_{KL}(P,Q) = \sum_{x} p(x) \log \left(\dfrac{p(x)}{q(x)}\right)dx.
 \end{equation}
 
 
-KL divergence if not symmetric $$\text{D_{KL}}(P,Q) \neq \text{D_{KL}}(Q,P)$$ and does not statisfy the triangle inequality. Consequently, KL divergence is not a metric.
+KL divergence if not symmetric $$\text{D}_{KL}(P,Q) \neq \text{D}_{KL}(Q,P)$$ and does not statisfy the triangle inequality. Consequently, KL divergence is not a metric.
 
 In real application, KL divergence is used when one want to approximation a complex true distribution $$P$$ with a simple approximate $$Q$$ which is most case is Gaussian. This technique is quite used in situation where it is easier to compute, such as expectation-maximazation algorithm (EM) and evidence lower bound (ELBO) computations.
 
@@ -53,13 +53,13 @@ Here we have some properties of KL divergence.
 * Consider two multivariate Gaussian distributions $$P_1=\mathcal{N}(\mu_1, \Sigma_1)$$ and $$P_2=\mathcal{N}(\mu_2, \Sigma_2)$$, the KL deivergence between $$P_1$$ and $$P_2$$ has a close form expression given by
 
 \begin{equation}
-    \text{D_{KL}}(P_1, P_2) = \frac{1}{2}\left(\text{tr}(\Sigma^{-1}_2\Sigma_1) -d + (\mu_2-\mu_1)^\top\Sigma_2^{-1}(\mu_2-\mu_1) + \ln\left(\dfrac{\text{det}\Sigma_2}{\text{det}\Sigma_1}\right)\right)
+    \text{D}_{KL}(P_1, P_2) = \frac{1}{2}\left(\text{tr}(\Sigma^{-1}_2\Sigma_1) -d + (\mu_2-\mu_1)^\top\Sigma_2^{-1}(\mu_2-\mu_1) + \ln\left(\dfrac{\text{det}\Sigma_2}{\text{det}\Sigma_1}\right)\right)
 \end{equation}
 
 * Consider two uniform distributions $$P_1=\mathcal{U}(A, B)$$ and $$P_2=\mathcal{U}(C,D)$$, the KL deivergence between $$P_1$$ and $$P_2$$ has a close form expression given by
 
 \begin{equation}
-    \text{D_{KL}}(P_1, P_2) =\log\left(\dfrac{D-C}{B-A}\right).
+    \text{D}_{KL}(P_1, P_2) =\log\left(\dfrac{D-C}{B-A}\right).
 \end{equation}
     
 
