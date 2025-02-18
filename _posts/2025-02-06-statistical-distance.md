@@ -56,7 +56,7 @@ Here we have some properties of KL divergence.
     \text{D}_{KL}(P_1, P_2) = \frac{1}{2}\left(\text{tr}(\Sigma^{-1}_2\Sigma_1) -d + (\mu_2-\mu_1)^\top\Sigma_2^{-1}(\mu_2-\mu_1) + \ln\left(\dfrac{\text{det}\Sigma_2}{\text{det}\Sigma_1}\right)\right)
 \end{equation}
 
-* Consider two uniform distributions $$P_1=\mathcal{U}(A, B)$$ and $$P_2=\mathcal{U}(C,D)$$, the KL deivergence between $$P_1$$ and $$P_2$$ has a close form expression given by
+* Consider two uniform distributions $$P_1=\mathcal{U}(A, B)$$ and $$ P_2=\mathcal{U}(C,D)$$, the KL deivergence between $$P_1$$ and $$P_2$$ has a close form expression given by
 
 \begin{equation}
     \text{D}_{KL}(P_1, P_2) =\log\left(\dfrac{D-C}{B-A}\right).
@@ -88,7 +88,7 @@ MMD is a distance on the space of probability measures which has found numerous 
 Let $$\mathcal{F}_k$$ to be a unit ball in a reproducing kernel hilbert space, where $$k$$ is a kernel measuring similarity. The MMD between $$P$$ and $$Q$$ is defened as follows:
 
 \begin{equation}
-    \text{MMD}(P,Q) = \sup_{f\in\mathcal{F}_k}|\mathbb{E}_{X\sim P}\left[f(X)\right] - \mathbb{E}_{Y\sim Q}\left[f(Y)\right]|.
+    \text{MMD}(P,Q) = \sup_{f\in\mathcal{F}_{k}}|\mathbb{E}_{X\sim P}\left[f(X)\right] - \mathbb{E}_{Y\sim Q}\left[f(Y)\right]|.
 \end{equation}
 
 This distance can be rewritten as follows
