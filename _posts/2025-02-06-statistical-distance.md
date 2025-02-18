@@ -90,10 +90,13 @@ Let $$\mathcal{F}_k$$ to be a unit ball in a reproducing kernel hilbert space, w
 \begin{equation}
     \text{MMD}(P,Q) = \sup_{f\in\mathcal{F}_k}|\mathbb{E}_{X\sim P}\left[f(X)\right] - \mathbb{E}_{Y\sim Q}\left[f(Y)\right]|.
 \end{equation}
+
 This distance can be rewritten as follows
+
 \begin{equation}
     \text{MMD}(P,Q) = \mathbb{E}_{X,X'\sim P}k(X,X') - 2\mathbb{E}_{Y\sim Q, X\sim P}k(X,Y)+ \mathbb{E}_{Y,Y'\sim P}k(Y,Y').
 \end{equation}
+
 In practical application, the MMD measure is quite used because it is simple to evaluate. Notice that MMD measure consist of expectation values for which wa can use empirical expectation.  
 <h3> Jensen-Shannon divergence </h3>
 
