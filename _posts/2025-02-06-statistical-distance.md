@@ -125,20 +125,21 @@ $$ 0\leq \text{JSD}(P||Q)\leq 1. $$
   
 JSD has applications in many areas including machine learning when comparing two datasets, bioinformatics and genome comparison.  
 <h3> f-divergence </h3>
-f-divergence is a measure used to evaluate dissimilarity between two given probability distributions. Notice that many divergence measures including `total variation` and `KL-divergence` are special cases of f-divergence. 
+f-divergence is a generalisation of a famly of divergence functions (`total variation distance` and `KL-divergence`) used to measure the difference between two probability distributions. It can be seen a generalisation of the following well-known divergence measures: Kullback Liebler divergence, Jensen-Shannon divergence and Total Variation distance.
 
-Let consider $$P$$ and $$Q$$ be two probability distributions, such that $$P<<Q$$, that is $$P$$ is absolutely continuous with respect to $$Q$$. Then, for a convex function $$f:\[0,+\infty\[\rightarrow \(-\infty, +\infty]$$ such that $$f(x)$$ is finite for all $$x$$. The f-divergence is defined as
+For two probability distribution $$P$$ and $$Q$$ with densities $$p(x)$$ and $$q(x)$$ respectively. Assuming that $$P<<Q$$, that is $$P$$ is absolutely continuous with respect to $$Q$$, the f-divergence is mathematical defined as
 
 $$
 D_f(P||Q) = \int f(\dfrac{dP}{dQ})dQ.
 $$
 
-We call $$f$$ generator of $$D_f$$, and $$f$$ satisfies the following conditions:
+where:
+* $$f:\[0,+\infty\[\rightarrow \(-\infty, +\infty]$$ is a convex function such that $$f(x)$$ is finite for all $$x$$. $$f$$ is the generator of $$D_f$$ satisfying:
 
-* $$f(1)=0$$
-* $$f(0) = \lim_{t\tendto 0^+}f(t).$$
+  * $$f(1)=0$$
+  * $$f(0) = \lim_{t\tendto 0^+}f(t).$$
 
-
+F-divergence is mainly used in Statictics, machine learnign, and information theory to quantify the difference between distributions. This measure is quite flexible because you can chosse different functions $$f$$, tailorng the divergence to different types of problems or distributions. However, it also has some limitations including asymmetric; f-divergence is not symmetric making some of its properties less desirable for applications that require sysmetriy. Additionally, depending on the choice of $$f$$ it might be sensitive to outliers, which can influence the divergence significantly in certain appplications.
 
 
 
