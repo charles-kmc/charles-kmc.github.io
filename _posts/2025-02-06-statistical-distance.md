@@ -39,10 +39,9 @@ Introduced by Solomon Kullback and Richard Leibler, KL divergence (also called r
 
 For discrete probability distribution $$P$$ and $$Q$$, the KL divergence is given by,
 
-\begin{equation}
+$$
     \text{D}_{KL}(P,Q) = \sum_{x} p(x) \log \left(\dfrac{p(x)}{q(x)}\right)dx.
-\end{equation}
-
+$$
 
 KL divergence if not symmetric $$\text{D}_{KL}(P,Q) \neq \text{D}_{KL}(Q,P)$$ and does not statisfy the triangle inequality. Consequently, KL divergence is not a metric.
 
@@ -102,6 +101,7 @@ In practical application, the MMD measure is quite used because it is simple to 
 Jansen-Shanon divergence, named after `Ljohan Jensen` and `Claude Shannon`, is a method of measuring the distance between two probability distributions. The measure relies on KL divergenc measure. it is a symmetric measure that always has fine value.
 
 Let $$P$$ and $$Q$$ two probability distributions. The Jensen-Shannon divergence is defined by 
+
 $$
 \text{JSD}(P||Q)=\frac{1}{2}D_{KL}(P||M) + D_{KL}(Q||M),
 $$
@@ -119,12 +119,26 @@ This measure has the following charateristics:
 * It is the smooth version of the KL divergence
 * For 2 probability distributions, the JSD is bounded by 1
 
-$$ 0\leg \text{JSD}(P||Q)\leg 1. $$
+$$ 0\leq \text{JSD}(P||Q)\leq 1. $$
 
 * Linked to mutual information between a random variable $$X$$ associatd to a mixture distribution between $$P$$ and $$Q$$, and the binary indicator variable $$Z$$ that is used to witch between $$P$$ and $$Q$$ to produce the mixture.
   
 JSD has applications in many areas including machine learning when comparing two datasets, bioinformatics and genome comparison.  
 <h3> f-divergence </h3>
+f-divergence is a measure used to evaluate dissimilarity between two given probability distributions. Notice that many divergence measures including `total variation` and `KL-divergence` are special cases of f-divergence. 
+
+Let consider $$P$$ and $$Q$$ be two probability distributions, such that $$P<<Q$$, that is $$P$$ is absolutely continuous with respect to $$Q$$. Then, for a convex function $$f:\[0,+\infty\[\rightarrow \(-\infty, +\infty]$$ such that $$f(x)$$ is finite for all $$x$$. The f-divergence is defined as
+
+$$
+D_f(P||Q) = \int f(\dfrac{dP}{dQ})dQ.
+$$
+
+We call $$f$$ generator of $$D_f$$, and $$f$$ satisfies the following conditions:
+
+* $$f(1)=0$$
+* $$f(0) = \lim_{t\tendto 0^+}f(t).$$
+
+
 
 
 
