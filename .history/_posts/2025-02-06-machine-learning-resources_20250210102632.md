@@ -32,19 +32,13 @@ Challenges in computer vison
     * **High variance**: High variance often occurs when a the model is too complex relative to the amunt of training data available. A model with high variance will fit well the training data, but when exposed to new, unseen data, it may perform poorly because it has memorised rather that generalised patterns.
     * **Low variance**. A models with low variance doesn't change much when trained on different subsets of data. It tends the make stable prdictions, bay may struggle to capture complex patterns, leading to underfitting.
 - **Bias-Variance tradeoff**. This is a fundamental concept in machine learning when we try to balance two competing factors: *bais* and *variance*. 
-    * **Low bias, high variance**. The model is complex and captures many details, including noise, leading to overfitting. The prediction can vary depending on the specific training data used, but model can potential performs very well on training data.
-    * **High Bias, low variance**. The model is simple and makes strong assumptions. it doesn't capture much complexity, leading to underffiting. The prediction is often stable but inaccurate. 
-    * **Low bias, low variance**. The model is simple and captures the underlying patterns.
-    * **High bias, high variance**. The model is too complex and captures noise, leading to overfitting.
-- **Regularization**: Regularization is a technique used to prevent overfitting by adding a penalty to the model parameters. Classical examples of regularisation in machine learning include *L2 regularisation (Ridge)*, *L1 regularisation (Lasso)*, *dropout* in neural networks.
-- **Cross-validation**: Cross-validation is a technique used to evaluate a model's performance on unseen data and detect overfitting. 
-- **Ensemble methods**: Ensemble methods are a technique used to combine the predictions from different models (e.g., Random Forest, Gradient Boosting, Support vector machines, K-nearest neighbors, Decision trees). This technique allows to reduce variance without increasing bias too much. 
 
 
-
-<!--
-
-
+- **Regularization**: Regularization is a technique used to prevent overfitting by adding a penalty
+- **Hyperparameter tuning**: Hyperparameter tuning is the process of selecting the best
+- **Cross-validation**: Cross-validation is a technique used to evaluate a model's performance
+- **Resampling**: Resampling is a technique used to create multiple versions of a dataset
+- **Ensemble methods**: Ensemble methods are a technique used to combine the predictions
 - **Gradient boosting**: Gradient boosting is a type of ensemble method that combines
 - **Random forest**: Random forest is a type of ensemble method that combines
 - **Support vector machines**: Support vector machines are a type of supervised learning
@@ -63,7 +57,7 @@ Challenges in computer vison
 - **Vision Transformer**: 
 
 
-
+<!--
 <h3> Computer Vison </h3>
 Challenges in computer vison
 

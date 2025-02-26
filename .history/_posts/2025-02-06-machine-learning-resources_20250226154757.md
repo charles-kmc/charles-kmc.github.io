@@ -43,27 +43,6 @@ Challenges in computer vison
 
 
 <!--
-
-
-- **Gradient boosting**: Gradient boosting is a type of ensemble method that combines
-- **Random forest**: Random forest is a type of ensemble method that combines
-- **Support vector machines**: Support vector machines are a type of supervised learning
-- **K-nearest neighbors**: K-nearest neighbors is a type of supervised learning
-- **Decision trees**: Decision trees are a type of supervised learning
-- **Neural networks**: Neural networks are a type of supervised learning
-- **Reinforcement learning**: Reinforcement learning is a type of unsupervised learning
-- **Unsupervised learning**: Unsupervised learning is a type of learning where the model
-- **Supervised learning**: Supervised learning is a type of learning where the model
-- **Semi-supervised learning**: Semi-supervised learning is a type of learning where the model
-- **Active learning**: Active learning is a type of learning where the model
-- **Transfer learning**: Transfer learning is a type of learning where a model
-- **Deep learning**: Deep learning is a type of machine learning that uses
-- **Natural language processing**: Natural language processing is a type of machine learning
-- **Computer vision**: Computer vision is a type of machine learning that deals
-- **Vision Transformer**: 
-
-
-
 <h3> Computer Vison </h3>
 Challenges in computer vison
 
