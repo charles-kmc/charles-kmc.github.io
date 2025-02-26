@@ -140,8 +140,4 @@ where:
   * $$f(0) = \lim_{t\tendto 0^+}f(t).$$
 
 F-divergence is mainly used in Statictics, machine learnign, and information theory to quantify the difference between distributions. This measure is quite flexible because you can chosse different functions $$f$$, tailorng the divergence to different types of problems or distributions. However, it also has some limitations including asymmetric; f-divergence is not symmetric making some of its properties less desirable for applications that require sysmetriy. Additionally, depending on the choice of $$f$$ it might be sensitive to outliers, which can influence the divergence significantly in certain appplications.
-
-
-
-
 --- -->
