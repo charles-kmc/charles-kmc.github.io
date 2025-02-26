@@ -98,8 +98,32 @@ $$
 $$
 
 In practical application, the MMD measure is quite used because it is simple to evaluate. Notice that MMD measure consist of expectation values for which wa can use empirical expectation.  
-<h3> Jensen-Shannon divergence </h3>
+<h3> Jensen-Shannon divergence (JSD)</h3>
+Jansen-Shanon divergence, named after `Ljohan Jensen` and `Claude Shannon`, is a method of measuring the distance between two probability distributions. The measure relies on KL divergenc measure. it is a symmetric measure that always has fine value.
 
+Let $$P$$ and $$Q$$ two probability distributions. The Jensen-Shannon divergence is defined by 
+$$
+\text{JSD}(P||Q)=\frac{1}{2}D_{KL}(P||M) + D_{KL}(Q||M),
+$$
+
+where $$M=\frac{1}{2}(P+Q)$$ is a mixture of $$P$$ and $$Q$$. \par
+
+More generally, JSD can be used to compare more than 2 probability distributions. In this case, it is defined as follows:
+
+$$\text{JSD}_{\pi_1,\dots,\pi_n}(P_1,\dots,P_n)=\sum_{i=1}^{n}\pi_iD_{KL}(P_i||M) = H(M)-\sum_{i=1}^{n}\pi_iH(P_i),$$
+
+where $$H(P)$$ is the Shannon entropy for the robability distribution $$P$$, and $$M=\sum_{i=1}^{n}\pi_i P_i$$
+This measure has the following charateristics:
+
+* It takes into account the overall structure of the distributions. As a result, it is more resistant to local variations than other dirvergnce measures.
+* It is the smooth version of the KL divergence
+* For 2 probability distributions, the JSD is bounded by 1
+
+$$ 0\leg \text{JSD}(P||Q)\leg 1. $$
+
+* Linked to mutual information between a random variable $$X$$ associatd to a mixture distribution between $$P$$ and $$Q$$, and the binary indicator variable $$Z$$ that is used to witch between $$P$$ and $$Q$$ to produce the mixture.
+  
+JSD has applications in many areas including machine learning when comparing two datasets, bioinformatics and genome comparison.  
 <h3> f-divergence </h3>
 
 
