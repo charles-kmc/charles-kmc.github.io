@@ -16,10 +16,10 @@ nav_order: 1
 
 <div class="publications">
 
-{%- for y in page.years %}
-
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+{%- assign sorted_years = page.years | sort: 'to_integer' | reverse -%}
+{%- for y in sorted_years %}
+  <h2 class="year">{{ y }}</h2>
+  {% bibliography -f papers -q @*[year={{ y }}]* %}
+{%- endfor %}
 
 </div>
