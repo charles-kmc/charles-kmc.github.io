@@ -72,6 +72,7 @@ At each step, BAM combines the current noisy image estimate with a noise-matched
 
 ## Citation
 
+{% raw %}
 ```bibtex
 @misc{spagnoletti2026bam,
   title  = {{BAM!} {B}ayesian {A}nything {M}odel: a foundation model for generative computational imaging},
@@ -82,5 +83,6 @@ At each step, BAM combines the current noisy image estimate with a noise-matched
   primaryClass = {cs.CV}
 }
 ```
+{% endraw %}
 
 The paper is by Alessio Spagnoletti, Charlesquin Kemajou Mbakam, Jonathan Spence, Andres Almansa, and Marcelo Pereyra.
